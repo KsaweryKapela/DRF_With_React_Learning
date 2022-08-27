@@ -1,0 +1,2 @@
+echo > filename.xx = create new file
+cd/ = goes to root
