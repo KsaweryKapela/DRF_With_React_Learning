@@ -1,5 +1,4 @@
-Learning Django Rest Framework.
+Tech learning organizer
 
-Got bored with learning original Django, since it was very similar to Flask.
-So I will start learning API in the same time.
-Will finish the course on Django's basics like templating, forms etc. nonetheless.
+App that helps organize set up your learning goals in IT department.
+Created with Django Rest Framework and React.
