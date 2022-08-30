@@ -1,9 +1,6 @@
-import json
-
-from django.http import HttpResponse
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from DRF_Base.models import TechStack
+from DRF_Base.models import ProgrammingLanguage
 from .serializers import ItemSerializer
 
 
@@ -22,12 +19,7 @@ def get_tech_data(request):
 
 
 @api_view(['POST', 'GET'])
-def return_tech_data(request):
-    tech_stacks = TechStack.objects.all()
+def return_users_PL(request):
+    tech_stacks = ProgrammingLanguage.objects.all()
     serializer = ItemSerializer(tech_stacks, many=True)
-    print(serializer.data)
-
-    # print(serializer.data)
-    # data = json.dumps(serializer.data)
-    # print(data)
-    return Response({'message': 'Database data was sent to react'})
+    return Response(serializer.data)

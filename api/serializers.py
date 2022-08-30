@@ -1,8 +1,10 @@
 from rest_framework import serializers
-from DRF_Base.models import TechStack
+from DRF_Base.models import ProgrammingLanguage
 
 
 class ItemSerializer(serializers.ModelSerializer):
+    tasks = serializers.StringRelatedField(many=True)
+
     class Meta:
-        model = TechStack
-        fields = '__all__'
+        model = ProgrammingLanguage
+        fields = ['id', 'name', 'img_src', 'tasks']
