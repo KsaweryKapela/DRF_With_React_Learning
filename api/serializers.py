@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from DRF_Base.models import Item
+from DRF_Base.models import TechStack
 
 
 class ItemSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Item
+        model = TechStack
         fields = '__all__'

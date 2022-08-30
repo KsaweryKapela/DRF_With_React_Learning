@@ -1,6 +1,12 @@
 from django.db import models
 
 
-class Item(models.Model):
+class TechStack(models.Model):
     name = models.CharField(max_length=200)
-    created = models.DateTimeField(auto_now_add=True)
+    level = models.IntegerField()
+    img_src = models.CharField(max_length=500)
+    notes = models.CharField(max_length=500)
+
+    def __str__(self):
+        return self.name
+

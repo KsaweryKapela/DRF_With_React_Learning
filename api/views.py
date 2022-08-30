@@ -1,25 +1,33 @@
+import json
+
+from django.http import HttpResponse
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from DRF_Base.models import Item
+from DRF_Base.models import TechStack
 from .serializers import ItemSerializer
 
 
 @api_view(['GET', 'POST'])
-def get_data(request):
+def get_tech_data(request):
     if request.method == 'GET':
-        print(request.GET['name'])
-        print(request.GET['age'])
-        print(request.GET['notes'])
-        print(request.GET['img_src'])
 
-    items = Item.objects.all()
-    serializer = ItemSerializer(items, many=True)
-    return Response(serializer.data)
+        serializer = ItemSerializer(data=request.GET)
+        if serializer.is_valid():
+            serializer.save()
+        return Response({"message": "The data was saved to the database"})
+
+    # items = Item.objects.all()
+    # serializer = ItemSerializer(items, many=True)
+    return Response({"message": "Fetch wasn't successful"})
 
 
-@api_view(['POST'])
-def add_item(request):
-    serializer = ItemSerializer(data=request.data)
-    if serializer.is_valid():
-        serializer.save()
-    return Response()
+@api_view(['POST', 'GET'])
+def return_tech_data(request):
+    tech_stacks = TechStack.objects.all()
+    serializer = ItemSerializer(tech_stacks, many=True)
+    print(serializer.data)
+
+    # print(serializer.data)
+    # data = json.dumps(serializer.data)
+    # print(data)
+    return Response({'message': 'Database data was sent to react'})
