@@ -1,14 +1,17 @@
+import json
+
+from rest_framework.parsers import JSONParser
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from DRF_Base.models import ProgrammingLanguage
-from .serializers import ItemSerializer
+from .serializers import PL_serializer, tasks_serializer
 
 
-@api_view(['GET', 'POST'])
-def get_tech_data(request):
-    if request.method == 'GET':
-
-        serializer = ItemSerializer(data=request.GET)
+@api_view(['POST'])
+def get_todos(request):
+    if request.method == 'POST':
+        data = JSONParser().parse(request)
+        serializer = tasks_serializer(data=data)
         if serializer.is_valid():
             serializer.save()
         return Response({"message": "The data was saved to the database"})
@@ -20,6 +23,6 @@ def get_tech_data(request):
 
 @api_view(['POST', 'GET'])
 def return_users_PL(request):
-    tech_stacks = ProgrammingLanguage.objects.all()
-    serializer = ItemSerializer(tech_stacks, many=True)
+    pl = ProgrammingLanguage.objects.all()
+    serializer = PL_serializer(pl, many=True)
     return Response(serializer.data)
