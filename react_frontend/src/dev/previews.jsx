@@ -1,13 +1,13 @@
 import React from 'react';
 import {ComponentPreview, Previews} from '@react-buddy/ide-toolbox';
 import {PaletteTree} from './palette';
-import ReturnPL from "../components/ReturnPL";
+import RenderToDos from "../components/RenderToDos";
 
 const ComponentPreviews = () => {
     return (
         <Previews palette={<PaletteTree/>}>
-            <ComponentPreview path="/ReturnPL">
-                <ReturnPL/>
+            <ComponentPreview path="/RenderToDos">
+                <RenderToDos/>
             </ComponentPreview>
         </Previews>
     );

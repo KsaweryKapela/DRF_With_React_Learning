@@ -11,7 +11,7 @@ class ProgrammingLanguage(models.Model):
 
 class Task(models.Model):
     language = models.ForeignKey(ProgrammingLanguage, related_name='tasks', on_delete=models.CASCADE)
-    name = models.CharField(max_length=200)
+    name = models.CharField(max_length=200, unique=True)
     description = models.CharField(max_length=1000)
     done = models.BooleanField()
 

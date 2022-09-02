@@ -1,16 +1,13 @@
 import React, {useState} from 'react';
-import ReturnPL from "./components/ReturnPL";
+import RenderToDos from "./components/RenderToDos";
 
 function App() {
 
   return (
       <div>
-          < ReturnPL/>
+          < RenderToDos/>
       </div>
   )
 }
-
-// get-tech-data/
-// http://127.0.0.1:8000/return-users-PL/
 
 export default App;

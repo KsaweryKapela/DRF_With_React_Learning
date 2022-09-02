@@ -8,6 +8,7 @@ class PL_serializer(serializers.ModelSerializer):
     class Meta:
         model = ProgrammingLanguage
         fields = ['id', 'name', 'img_src', 'tasks']
+        depth = 1
 
 
 class tasks_serializer(serializers.ModelSerializer):
@@ -15,4 +16,3 @@ class tasks_serializer(serializers.ModelSerializer):
     class Meta:
         model = Task
         fields = '__all__'
-
