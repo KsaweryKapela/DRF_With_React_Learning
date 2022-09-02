@@ -1,0 +1,17 @@
+
+.to-do-table {
+     display: flex;
+  width: 50%;
+}
+
+
+.tech-item {
+     flex: 1;
+    padding-top: 5%;
+  padding-left: 8%;
+    padding-right: 8%;
+}
+
+.add-PL-label {
+   position: fixed;
+ top: 0;}

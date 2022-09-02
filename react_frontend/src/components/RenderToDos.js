@@ -4,6 +4,10 @@ import TaskAdd from "./Tasks/TaskAdd";
 import TaskDescription from "./Tasks/TaskDescription";
 import TaskName from "./Tasks/TaskName";
 import TaskDelete from "./Tasks/TaskDelete";
+import PLAdd from "./PL/PLAdd";
+import PLEdit from "./PL/PLEdit";
+
+import './style/RenderToDos.css'
 
 
 export default function RenderToDos() {
@@ -17,12 +21,12 @@ export default function RenderToDos() {
             await setUsersTasks(res.data[1])}
             fetchData()}, [])
 
-
     return (
-        <div>
-            <ul>
+        <>
+        <div className='to-do-table'>
+            <PLAdd/>
                 {
-                    usersPL.map(PL => <li key={PL.id}> {PL.name}
+                    usersPL.map(PL => <div className='tech-item' key={PL.id}> <PLEdit tech_name={PL.name}/>
 
                             {PL['tasks'].map(task => <div><hr/>
 
@@ -31,9 +35,9 @@ export default function RenderToDos() {
                                 <TaskDelete {...usersTasks[PL['tasks'].indexOf(task)]}/>
                                 </div>
                             )}
-                    < TaskAdd PL_ID = {PL.id}/> </li>
+                    < TaskAdd PL_ID = {PL.id}/> </div>
                     )
+
                 }
-            </ul>
-        </div>
+        </div></>
     )}

@@ -2,9 +2,9 @@ import React, {useState} from 'react'
 import axios from "axios";
 
 
-export default function TaskAdd(PL_ID) {
+export default function PLAdd() {
     const [values, setValues] = useState({
-        PL: 'Add new task'
+        PL: 'New tech'
     });
 
     const handleInputChange = (event) => setValues({values, PL: event.target.value})
@@ -14,11 +14,9 @@ export default function TaskAdd(PL_ID) {
 
       axios({
              method: "post",
-             url: "http://127.0.0.1:8000/edit-todos/",
-             data: {language: PL_ID.PL_ID,
-                    name: values.PL,
-                    description: 'Description of ' + values.PL,
-                    done: false},
+             url: "http://127.0.0.1:8000/edit-PL/",
+             data: {name: values.PL,
+                    tasks: []},
              headers: { "Content-Type": "json" }})
 
       setValues({values, PL: ''})
@@ -26,12 +24,11 @@ export default function TaskAdd(PL_ID) {
     }}
 
     return (
-        <div>
-            <hr/>
-            <input value={values.PL}
+        <>
+            <input className='add-PL-label' value={values.PL}
                    onChange={handleInputChange}
                    onKeyDown={handleKeypress}
             />
-        </div>
+       </>
     )
 }

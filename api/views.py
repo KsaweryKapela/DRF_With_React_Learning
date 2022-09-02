@@ -29,6 +29,30 @@ def edit_todos(request):
     return Response({"message": "Fetch wasn't successful"})
 
 
+@api_view(['POST', 'DELETE', 'PATCH'])
+def edit_PL(request):
+    if request.method == 'POST':
+        data = JSONParser().parse(request)
+        serializer = PL_serializer(data=data)
+        if serializer.is_valid():
+            serializer.save()
+
+    if request.method == 'PATCH':
+        data = JSONParser().parse(request)
+        if data['name'] == '':
+            item = ProgrammingLanguage.objects.get(name=data['old_name'])
+            item.delete()
+        else:
+            item = ProgrammingLanguage.objects.get(name=data['old_name'])
+            item.name = data['name']
+            item.save()
+
+
+
+
+    return Response({"message": "The data was saved to the database"})
+
+
 @api_view(['POST', 'GET'])
 def return_users_PL(request):
     pl = ProgrammingLanguage.objects.all()
