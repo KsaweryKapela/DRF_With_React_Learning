@@ -21,10 +21,14 @@ def edit_todos(request):
 
     if request.method == 'PATCH':
         data = JSONParser().parse(request)
+
         task = Task.objects.get(name=data['name'])
         task.description = data['description']
-        task.name = data['new_name']
-        task.save()
+        if data['new_name'] == '':
+            task.delete()
+        else:
+            task.name = data['new_name']
+            task.save()
 
     return Response({"message": "Fetch wasn't successful"})
 
@@ -39,7 +43,7 @@ def edit_PL(request):
 
     if request.method == 'PATCH':
         data = JSONParser().parse(request)
-        if data['name'] == '':
+        if data['name'] in ['']:
             item = ProgrammingLanguage.objects.get(name=data['old_name'])
             item.delete()
         else:
