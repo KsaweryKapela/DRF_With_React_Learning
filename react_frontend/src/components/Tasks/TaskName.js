@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import axios from "axios";
 
 export default function TaskName(data) {
+    console.log(data)
     const [isClicked, setIsClicked] = useState(false);
 
     const [values, setValues] = useState({

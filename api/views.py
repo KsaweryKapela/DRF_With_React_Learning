@@ -47,9 +47,6 @@ def edit_PL(request):
             item.name = data['name']
             item.save()
 
-
-
-
     return Response({"message": "The data was saved to the database"})
 
 
@@ -58,7 +55,4 @@ def return_users_PL(request):
     pl = ProgrammingLanguage.objects.all()
     serializer = PL_serializer(pl, many=True)
 
-    task = Task.objects.all()
-    serializer2 = tasks_serializer(task, many=True)
-
-    return Response([serializer.data, serializer2.data])
+    return Response([serializer.data])
