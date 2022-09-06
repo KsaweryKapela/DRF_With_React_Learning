@@ -31,7 +31,7 @@ export default function RenderToDos() {
 
                                 <TaskName {...task}/>
                                 <TaskDescription {...task}/>
-                                <TaskDelete {...task}/>
+                                {/*<TaskDelete {...task}/>  Should it stay or not?*/}
                                 </div>
                             )}
                     < TaskAdd PL_ID = {PL.id}/> </div>

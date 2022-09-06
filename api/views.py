@@ -1,15 +1,15 @@
 from rest_framework.parsers import JSONParser
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from DRF_Base.models import ProgrammingLanguage, Task
-from .serializers import PL_serializer, tasks_serializer
+from DRF_Base.models import TechStack, Task
+from .serializers import TechStackSerializer, TaskSerializer
 
 
 @api_view(['POST', 'DELETE', 'PATCH'])
 def edit_todos(request):
     if request.method == 'POST':
         data = JSONParser().parse(request)
-        serializer = tasks_serializer(data=data)
+        serializer = TaskSerializer(data=data)
         if serializer.is_valid():
             serializer.save()
         return Response({"message": "The data was saved to the database"})
@@ -37,17 +37,17 @@ def edit_todos(request):
 def edit_PL(request):
     if request.method == 'POST':
         data = JSONParser().parse(request)
-        serializer = PL_serializer(data=data)
+        serializer = TechStackSerializer(data=data)
         if serializer.is_valid():
             serializer.save()
 
     if request.method == 'PATCH':
         data = JSONParser().parse(request)
         if data['name'] in ['']:
-            item = ProgrammingLanguage.objects.get(name=data['old_name'])
+            item = TechStack.objects.get(name=data['old_name'])
             item.delete()
         else:
-            item = ProgrammingLanguage.objects.get(name=data['old_name'])
+            item = TechStack.objects.get(name=data['old_name'])
             item.name = data['name']
             item.save()
 
@@ -56,7 +56,7 @@ def edit_PL(request):
 
 @api_view(['POST', 'GET'])
 def return_users_PL(request):
-    pl = ProgrammingLanguage.objects.all()
-    serializer = PL_serializer(pl, many=True)
+    pl = TechStack.objects.all()
+    serializer = TechStackSerializer(pl, many=True)
 
     return Response([serializer.data])
