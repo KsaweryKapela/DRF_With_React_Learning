@@ -3,14 +3,11 @@ import axios from "axios";
 import TaskAdd from "./Tasks/TaskAdd";
 import TaskDescription from "./Tasks/TaskDescription";
 import TaskName from "./Tasks/TaskName";
-import TaskDelete from "./Tasks/TaskDelete";
 import PLAdd from "./PL/PLAdd";
 import PLEdit from "./PL/PLEdit";
 
-import './style/RenderToDos.css'
-
-
 export default function RenderToDos() {
+
     const [usersPL, setUsersPL] = useState([])
 
     useEffect(() => {
@@ -19,7 +16,6 @@ export default function RenderToDos() {
             await setUsersPL(res.data[0])}
             fetchData()}, [])
 
-    console.log(usersPL);
     return (
         <>
         <div className='to-do-table'>
@@ -31,7 +27,6 @@ export default function RenderToDos() {
 
                                 <TaskName {...task}/>
                                 <TaskDescription {...task}/>
-                                {/*<TaskDelete {...task}/>  Should it stay or not?*/}
                                 </div>
                             )}
                     < TaskAdd PL_ID = {PL.id}/> </div>

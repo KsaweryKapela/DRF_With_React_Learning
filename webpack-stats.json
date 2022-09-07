@@ -1,0 +1,34 @@
+{
+  "status": "done",
+  "assets": {
+    "main-de6bb4644b47d3a620f7.js": {
+      "name": "main-de6bb4644b47d3a620f7.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-de6bb4644b47d3a620f7.js"
+    },
+    "main-0a2404f0c0d3d146f9f1.js": {
+      "name": "main-0a2404f0c0d3d146f9f1.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-0a2404f0c0d3d146f9f1.js"
+    },
+    "main-602e39dc0e84803e0aca.js": {
+      "name": "main-602e39dc0e84803e0aca.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-602e39dc0e84803e0aca.js"
+    },
+    "main-14020908b0a4dd9a47d9.js": {
+      "name": "main-14020908b0a4dd9a47d9.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-14020908b0a4dd9a47d9.js"
+    },
+    "main-1b5cd53ef337ae47b7a6.js": {
+      "name": "main-1b5cd53ef337ae47b7a6.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-1b5cd53ef337ae47b7a6.js"
+    },
+    "main-ae3eab189fd206734431.js": {
+      "name": "main-ae3eab189fd206734431.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-ae3eab189fd206734431.js"
+    }
+  },
+  "chunks": {
+    "main": [
+      "main-1b5cd53ef337ae47b7a6.js"
+    ]
+  }
+}
