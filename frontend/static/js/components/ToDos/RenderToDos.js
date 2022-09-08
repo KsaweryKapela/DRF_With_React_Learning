@@ -31,7 +31,6 @@ export default function RenderToDos() {
                             )}
                     < TaskAdd PL_ID = {PL.id}/> </div>
                     )
-
                 }
         </div></>
     )}

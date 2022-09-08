@@ -2,8 +2,8 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 
-def register_page():
-    return HttpResponse('x')
+def register_page(request):
+    return render(request, 'register.html', {})
 
 
 def index(request):
