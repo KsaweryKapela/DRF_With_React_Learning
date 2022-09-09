@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import axios from "axios";
+import formOnClick from "../formOnClick";
 
 
 export default function PLEdit(tech) {
@@ -31,10 +32,14 @@ export default function PLEdit(tech) {
             <h1 onClick={() => setIsClicked(!isClicked)}>{values.PL}</h1>}
 
             {isClicked &&
-             <input value={values.PL}
+
+             <input className='tech-edit-input'
+                    value={values.PL}
+                    id = 'x'
                          onChange={handleInputChange}
-                         onKeyDown={handleKeypress}/>}
-
-
-       </>
+                         onKeyDown={handleKeypress}
+                    onFocus={(e) => formOnClick(e)}
+                    autoFocus
+                    onMouseLeave={() => setIsClicked(!isClicked)}
+             /> }</>
     )}

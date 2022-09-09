@@ -60,3 +60,11 @@ def return_users_PL(request):
     serializer = TechStackSerializer(pl, many=True)
 
     return Response([serializer.data])
+
+
+@api_view(['GET'])
+def register_user(request):
+    if request.method == 'GET':
+        QueryDict = request.GET
+        print(QueryDict)
+        return Response({'succes': 'True'})

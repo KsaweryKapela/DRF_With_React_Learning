@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import axios from "axios";
+import formOnClick from "../formOnClick";
 
 export default function TaskName(data) {
     const [isClicked, setIsClicked] = useState(false);
@@ -41,7 +42,11 @@ export default function TaskName(data) {
             {isClicked && <div><p>
              <input value={values.name}
                          onChange={handleInputChange}
-                         onKeyDown={handleKeypress}/> </p></div>}
+                         onKeyDown={handleKeypress}
+                         onFocus={(e) => formOnClick(e)}
+                         autoFocus
+                         onMouseLeave={() => setIsClicked(!isClicked)}
+            /></p></div>}
         </>
     )
 }

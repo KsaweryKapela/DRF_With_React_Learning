@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import axios from "axios";
+import formOnClick from "../formOnClick";
 
 export default function TaskDescription(data) {
 
@@ -32,7 +33,12 @@ export default function TaskDescription(data) {
             {isClicked && <div><p>
              <textarea value={values.description}
                          onChange={handleInputChange}
-                         onKeyDown={handleKeypress}/> </p></div>}
+                         onKeyDown={handleKeypress}
+                         onFocus={(e) => formOnClick(e)}
+                         autoFocus
+                         onMouseLeave={() => setIsClicked(!isClicked)}
+             /></p></div>
+            }
         </>
     )
 }

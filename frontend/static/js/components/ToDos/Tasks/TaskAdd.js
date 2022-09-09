@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import axios from "axios";
+import formOnClick from "../formOnClick";
 
 
 export default function TaskAdd(PL_ID) {
@@ -31,6 +32,7 @@ export default function TaskAdd(PL_ID) {
             <input value={values.PL}
                    onChange={handleInputChange}
                    onKeyDown={handleKeypress}
+                   onClick={(e) => formOnClick(e)}
             />
         </div>
     )

@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import axios from "axios";
+import formOnClick from '../formOnClick'
 
 
 export default function PLAdd() {
@@ -28,6 +29,7 @@ export default function PLAdd() {
             <input className='add-PL-label' value={values.PL}
                    onChange={handleInputChange}
                    onKeyDown={handleKeypress}
+                   onClick={(e) => formOnClick(e)}
             />
        </>
     )
