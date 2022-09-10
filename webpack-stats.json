@@ -1,1308 +1,1116 @@
 {
   "status": "done",
   "assets": {
-    "main-5bb97c66835d0a9555cf.js": {
-      "name": "main-5bb97c66835d0a9555cf.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-5bb97c66835d0a9555cf.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-5bb97c66835d0a9555cf.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-5bb97c66835d0a9555cf.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-5bb97c66835d0a9555cf.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-5bb97c66835d0a9555cf.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-5bb97c66835d0a9555cf.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-5bb97c66835d0a9555cf.js"
-    },
-    "vendors-node_modules_axios_index_js-5bb97c66835d0a9555cf.js": {
-      "name": "vendors-node_modules_axios_index_js-5bb97c66835d0a9555cf.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-5bb97c66835d0a9555cf.js"
-    },
-    "main-81156ae9cf2a0e167abf.js": {
-      "name": "main-81156ae9cf2a0e167abf.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-81156ae9cf2a0e167abf.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-81156ae9cf2a0e167abf.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-81156ae9cf2a0e167abf.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-81156ae9cf2a0e167abf.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-81156ae9cf2a0e167abf.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-81156ae9cf2a0e167abf.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-81156ae9cf2a0e167abf.js"
-    },
-    "vendors-node_modules_axios_index_js-81156ae9cf2a0e167abf.js": {
-      "name": "vendors-node_modules_axios_index_js-81156ae9cf2a0e167abf.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-81156ae9cf2a0e167abf.js"
-    },
-    "main-a95238290ddafd3d2203.js": {
-      "name": "main-a95238290ddafd3d2203.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-a95238290ddafd3d2203.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-a95238290ddafd3d2203.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-a95238290ddafd3d2203.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-a95238290ddafd3d2203.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-a95238290ddafd3d2203.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-a95238290ddafd3d2203.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-a95238290ddafd3d2203.js"
-    },
-    "vendors-node_modules_axios_index_js-a95238290ddafd3d2203.js": {
-      "name": "vendors-node_modules_axios_index_js-a95238290ddafd3d2203.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-a95238290ddafd3d2203.js"
-    },
-    "main-9d968b9f7319f8a37631.js": {
-      "name": "main-9d968b9f7319f8a37631.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-9d968b9f7319f8a37631.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-9d968b9f7319f8a37631.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-9d968b9f7319f8a37631.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-9d968b9f7319f8a37631.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-9d968b9f7319f8a37631.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-9d968b9f7319f8a37631.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-9d968b9f7319f8a37631.js"
-    },
-    "vendors-node_modules_axios_index_js-9d968b9f7319f8a37631.js": {
-      "name": "vendors-node_modules_axios_index_js-9d968b9f7319f8a37631.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-9d968b9f7319f8a37631.js"
-    },
-    "main-378ae10bcd9703b86cfa.js": {
-      "name": "main-378ae10bcd9703b86cfa.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-378ae10bcd9703b86cfa.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-378ae10bcd9703b86cfa.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-378ae10bcd9703b86cfa.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-378ae10bcd9703b86cfa.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-378ae10bcd9703b86cfa.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-378ae10bcd9703b86cfa.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-378ae10bcd9703b86cfa.js"
-    },
-    "vendors-node_modules_axios_index_js-378ae10bcd9703b86cfa.js": {
-      "name": "vendors-node_modules_axios_index_js-378ae10bcd9703b86cfa.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-378ae10bcd9703b86cfa.js"
-    },
-    "main-624633244a9e7a005b91.js": {
-      "name": "main-624633244a9e7a005b91.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-624633244a9e7a005b91.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-624633244a9e7a005b91.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-624633244a9e7a005b91.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-624633244a9e7a005b91.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-624633244a9e7a005b91.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-624633244a9e7a005b91.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-624633244a9e7a005b91.js"
-    },
-    "vendors-node_modules_axios_index_js-624633244a9e7a005b91.js": {
-      "name": "vendors-node_modules_axios_index_js-624633244a9e7a005b91.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-624633244a9e7a005b91.js"
-    },
-    "main-45ebac47629996d91ccf.js": {
-      "name": "main-45ebac47629996d91ccf.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-45ebac47629996d91ccf.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-45ebac47629996d91ccf.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-45ebac47629996d91ccf.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-45ebac47629996d91ccf.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-45ebac47629996d91ccf.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-45ebac47629996d91ccf.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-45ebac47629996d91ccf.js"
-    },
-    "vendors-node_modules_axios_index_js-45ebac47629996d91ccf.js": {
-      "name": "vendors-node_modules_axios_index_js-45ebac47629996d91ccf.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-45ebac47629996d91ccf.js"
-    },
-    "main-0bae6a1b64acde15916a.js": {
-      "name": "main-0bae6a1b64acde15916a.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-0bae6a1b64acde15916a.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-0bae6a1b64acde15916a.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-0bae6a1b64acde15916a.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-0bae6a1b64acde15916a.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-0bae6a1b64acde15916a.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-0bae6a1b64acde15916a.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-0bae6a1b64acde15916a.js"
-    },
-    "vendors-node_modules_axios_index_js-0bae6a1b64acde15916a.js": {
-      "name": "vendors-node_modules_axios_index_js-0bae6a1b64acde15916a.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-0bae6a1b64acde15916a.js"
-    },
-    "main-1170dea0e58f6f02d5f5.js": {
-      "name": "main-1170dea0e58f6f02d5f5.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-1170dea0e58f6f02d5f5.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-1170dea0e58f6f02d5f5.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-1170dea0e58f6f02d5f5.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-1170dea0e58f6f02d5f5.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-1170dea0e58f6f02d5f5.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-1170dea0e58f6f02d5f5.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-1170dea0e58f6f02d5f5.js"
-    },
-    "vendors-node_modules_axios_index_js-1170dea0e58f6f02d5f5.js": {
-      "name": "vendors-node_modules_axios_index_js-1170dea0e58f6f02d5f5.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-1170dea0e58f6f02d5f5.js"
-    },
-    "main-b0c2344c5c3252808c61.js": {
-      "name": "main-b0c2344c5c3252808c61.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-b0c2344c5c3252808c61.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-b0c2344c5c3252808c61.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-b0c2344c5c3252808c61.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-b0c2344c5c3252808c61.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-b0c2344c5c3252808c61.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-b0c2344c5c3252808c61.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-b0c2344c5c3252808c61.js"
-    },
-    "vendors-node_modules_axios_index_js-b0c2344c5c3252808c61.js": {
-      "name": "vendors-node_modules_axios_index_js-b0c2344c5c3252808c61.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-b0c2344c5c3252808c61.js"
-    },
-    "main-e66d74992ecc670796e6.js": {
-      "name": "main-e66d74992ecc670796e6.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-e66d74992ecc670796e6.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-e66d74992ecc670796e6.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-e66d74992ecc670796e6.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-e66d74992ecc670796e6.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-e66d74992ecc670796e6.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-e66d74992ecc670796e6.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-e66d74992ecc670796e6.js"
-    },
-    "vendors-node_modules_axios_index_js-e66d74992ecc670796e6.js": {
-      "name": "vendors-node_modules_axios_index_js-e66d74992ecc670796e6.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-e66d74992ecc670796e6.js"
-    },
-    "main-1368cd5d55f1e16dd797.js": {
-      "name": "main-1368cd5d55f1e16dd797.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-1368cd5d55f1e16dd797.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-1368cd5d55f1e16dd797.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-1368cd5d55f1e16dd797.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-1368cd5d55f1e16dd797.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-1368cd5d55f1e16dd797.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-1368cd5d55f1e16dd797.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-1368cd5d55f1e16dd797.js"
-    },
-    "vendors-node_modules_axios_index_js-1368cd5d55f1e16dd797.js": {
-      "name": "vendors-node_modules_axios_index_js-1368cd5d55f1e16dd797.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-1368cd5d55f1e16dd797.js"
-    },
-    "main-dddeff3818e822de3b4c.js": {
-      "name": "main-dddeff3818e822de3b4c.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-dddeff3818e822de3b4c.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-dddeff3818e822de3b4c.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-dddeff3818e822de3b4c.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-dddeff3818e822de3b4c.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-dddeff3818e822de3b4c.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-dddeff3818e822de3b4c.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-dddeff3818e822de3b4c.js"
-    },
-    "vendors-node_modules_axios_index_js-dddeff3818e822de3b4c.js": {
-      "name": "vendors-node_modules_axios_index_js-dddeff3818e822de3b4c.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-dddeff3818e822de3b4c.js"
-    },
-    "main-7441e984dfeb24a1e0d1.js": {
-      "name": "main-7441e984dfeb24a1e0d1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-7441e984dfeb24a1e0d1.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-7441e984dfeb24a1e0d1.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-7441e984dfeb24a1e0d1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-7441e984dfeb24a1e0d1.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-7441e984dfeb24a1e0d1.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-7441e984dfeb24a1e0d1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-7441e984dfeb24a1e0d1.js"
-    },
-    "vendors-node_modules_axios_index_js-7441e984dfeb24a1e0d1.js": {
-      "name": "vendors-node_modules_axios_index_js-7441e984dfeb24a1e0d1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-7441e984dfeb24a1e0d1.js"
-    },
-    "main-25bbfc1f65e5ac934591.js": {
-      "name": "main-25bbfc1f65e5ac934591.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-25bbfc1f65e5ac934591.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-25bbfc1f65e5ac934591.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-25bbfc1f65e5ac934591.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-25bbfc1f65e5ac934591.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-25bbfc1f65e5ac934591.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-25bbfc1f65e5ac934591.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-25bbfc1f65e5ac934591.js"
-    },
-    "vendors-node_modules_axios_index_js-25bbfc1f65e5ac934591.js": {
-      "name": "vendors-node_modules_axios_index_js-25bbfc1f65e5ac934591.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-25bbfc1f65e5ac934591.js"
-    },
-    "main-024b091b947376218001.js": {
-      "name": "main-024b091b947376218001.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-024b091b947376218001.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-024b091b947376218001.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-024b091b947376218001.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-024b091b947376218001.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-024b091b947376218001.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-024b091b947376218001.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-024b091b947376218001.js"
-    },
-    "vendors-node_modules_axios_index_js-024b091b947376218001.js": {
-      "name": "vendors-node_modules_axios_index_js-024b091b947376218001.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-024b091b947376218001.js"
-    },
-    "main-bdb729611e054e5ae134.js": {
-      "name": "main-bdb729611e054e5ae134.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-bdb729611e054e5ae134.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-bdb729611e054e5ae134.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-bdb729611e054e5ae134.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-bdb729611e054e5ae134.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-bdb729611e054e5ae134.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-bdb729611e054e5ae134.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-bdb729611e054e5ae134.js"
-    },
-    "vendors-node_modules_axios_index_js-bdb729611e054e5ae134.js": {
-      "name": "vendors-node_modules_axios_index_js-bdb729611e054e5ae134.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-bdb729611e054e5ae134.js"
-    },
-    "main-f463abd450ccf1c16e1a.js": {
-      "name": "main-f463abd450ccf1c16e1a.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-f463abd450ccf1c16e1a.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-f463abd450ccf1c16e1a.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-f463abd450ccf1c16e1a.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-f463abd450ccf1c16e1a.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-f463abd450ccf1c16e1a.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-f463abd450ccf1c16e1a.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-f463abd450ccf1c16e1a.js"
-    },
-    "vendors-node_modules_axios_index_js-f463abd450ccf1c16e1a.js": {
-      "name": "vendors-node_modules_axios_index_js-f463abd450ccf1c16e1a.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-f463abd450ccf1c16e1a.js"
-    },
-    "main-7b43109568d543b3ede0.js": {
-      "name": "main-7b43109568d543b3ede0.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-7b43109568d543b3ede0.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-7b43109568d543b3ede0.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-7b43109568d543b3ede0.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-7b43109568d543b3ede0.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-7b43109568d543b3ede0.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-7b43109568d543b3ede0.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-7b43109568d543b3ede0.js"
-    },
-    "vendors-node_modules_axios_index_js-7b43109568d543b3ede0.js": {
-      "name": "vendors-node_modules_axios_index_js-7b43109568d543b3ede0.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-7b43109568d543b3ede0.js"
-    },
-    "main-b0ed69e7e620f129bdb1.js": {
-      "name": "main-b0ed69e7e620f129bdb1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-b0ed69e7e620f129bdb1.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-b0ed69e7e620f129bdb1.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-b0ed69e7e620f129bdb1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-b0ed69e7e620f129bdb1.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-b0ed69e7e620f129bdb1.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-b0ed69e7e620f129bdb1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-b0ed69e7e620f129bdb1.js"
-    },
-    "vendors-node_modules_axios_index_js-b0ed69e7e620f129bdb1.js": {
-      "name": "vendors-node_modules_axios_index_js-b0ed69e7e620f129bdb1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-b0ed69e7e620f129bdb1.js"
-    },
-    "main-aaf0e58797628c890de5.js": {
-      "name": "main-aaf0e58797628c890de5.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-aaf0e58797628c890de5.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-aaf0e58797628c890de5.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-aaf0e58797628c890de5.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-aaf0e58797628c890de5.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-aaf0e58797628c890de5.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-aaf0e58797628c890de5.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-aaf0e58797628c890de5.js"
-    },
-    "vendors-node_modules_axios_index_js-aaf0e58797628c890de5.js": {
-      "name": "vendors-node_modules_axios_index_js-aaf0e58797628c890de5.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-aaf0e58797628c890de5.js"
-    },
-    "main-171ddd46d1d6b689309d.js": {
-      "name": "main-171ddd46d1d6b689309d.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-171ddd46d1d6b689309d.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-171ddd46d1d6b689309d.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-171ddd46d1d6b689309d.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-171ddd46d1d6b689309d.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-171ddd46d1d6b689309d.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-171ddd46d1d6b689309d.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-171ddd46d1d6b689309d.js"
-    },
-    "vendors-node_modules_axios_index_js-171ddd46d1d6b689309d.js": {
-      "name": "vendors-node_modules_axios_index_js-171ddd46d1d6b689309d.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-171ddd46d1d6b689309d.js"
-    },
-    "main-bba1635ad0450e4f43d1.js": {
-      "name": "main-bba1635ad0450e4f43d1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-bba1635ad0450e4f43d1.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-bba1635ad0450e4f43d1.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-bba1635ad0450e4f43d1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-bba1635ad0450e4f43d1.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-bba1635ad0450e4f43d1.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-bba1635ad0450e4f43d1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-bba1635ad0450e4f43d1.js"
-    },
-    "vendors-node_modules_axios_index_js-bba1635ad0450e4f43d1.js": {
-      "name": "vendors-node_modules_axios_index_js-bba1635ad0450e4f43d1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-bba1635ad0450e4f43d1.js"
-    },
-    "main-7974581446c398329c90.js": {
-      "name": "main-7974581446c398329c90.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-7974581446c398329c90.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-7974581446c398329c90.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-7974581446c398329c90.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-7974581446c398329c90.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-7974581446c398329c90.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-7974581446c398329c90.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-7974581446c398329c90.js"
-    },
-    "vendors-node_modules_axios_index_js-7974581446c398329c90.js": {
-      "name": "vendors-node_modules_axios_index_js-7974581446c398329c90.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-7974581446c398329c90.js"
-    },
-    "main-6bee45f525b0e966af35.js": {
-      "name": "main-6bee45f525b0e966af35.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-6bee45f525b0e966af35.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-6bee45f525b0e966af35.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-6bee45f525b0e966af35.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-6bee45f525b0e966af35.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-6bee45f525b0e966af35.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-6bee45f525b0e966af35.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-6bee45f525b0e966af35.js"
-    },
-    "vendors-node_modules_axios_index_js-6bee45f525b0e966af35.js": {
-      "name": "vendors-node_modules_axios_index_js-6bee45f525b0e966af35.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-6bee45f525b0e966af35.js"
-    },
-    "main-e0d2ad417c68c96a7aa1.js": {
-      "name": "main-e0d2ad417c68c96a7aa1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-e0d2ad417c68c96a7aa1.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-e0d2ad417c68c96a7aa1.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-e0d2ad417c68c96a7aa1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-e0d2ad417c68c96a7aa1.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-e0d2ad417c68c96a7aa1.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-e0d2ad417c68c96a7aa1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-e0d2ad417c68c96a7aa1.js"
-    },
-    "vendors-node_modules_axios_index_js-e0d2ad417c68c96a7aa1.js": {
-      "name": "vendors-node_modules_axios_index_js-e0d2ad417c68c96a7aa1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-e0d2ad417c68c96a7aa1.js"
-    },
-    "main-d552d4cccebbb2af38c9.js": {
-      "name": "main-d552d4cccebbb2af38c9.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-d552d4cccebbb2af38c9.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-d552d4cccebbb2af38c9.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-d552d4cccebbb2af38c9.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-d552d4cccebbb2af38c9.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-d552d4cccebbb2af38c9.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-d552d4cccebbb2af38c9.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-d552d4cccebbb2af38c9.js"
-    },
-    "vendors-node_modules_axios_index_js-d552d4cccebbb2af38c9.js": {
-      "name": "vendors-node_modules_axios_index_js-d552d4cccebbb2af38c9.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-d552d4cccebbb2af38c9.js"
-    },
-    "main-375a6a9d4ccfa6297a17.js": {
-      "name": "main-375a6a9d4ccfa6297a17.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-375a6a9d4ccfa6297a17.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-375a6a9d4ccfa6297a17.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-375a6a9d4ccfa6297a17.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-375a6a9d4ccfa6297a17.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-375a6a9d4ccfa6297a17.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-375a6a9d4ccfa6297a17.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-375a6a9d4ccfa6297a17.js"
-    },
-    "vendors-node_modules_axios_index_js-375a6a9d4ccfa6297a17.js": {
-      "name": "vendors-node_modules_axios_index_js-375a6a9d4ccfa6297a17.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-375a6a9d4ccfa6297a17.js"
-    },
-    "main-becfde6e8c1324d6528c.js": {
-      "name": "main-becfde6e8c1324d6528c.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-becfde6e8c1324d6528c.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-becfde6e8c1324d6528c.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-becfde6e8c1324d6528c.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-becfde6e8c1324d6528c.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-becfde6e8c1324d6528c.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-becfde6e8c1324d6528c.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-becfde6e8c1324d6528c.js"
-    },
-    "vendors-node_modules_axios_index_js-becfde6e8c1324d6528c.js": {
-      "name": "vendors-node_modules_axios_index_js-becfde6e8c1324d6528c.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-becfde6e8c1324d6528c.js"
-    },
-    "main-2f63a3a4e83c5da0bf4e.js": {
-      "name": "main-2f63a3a4e83c5da0bf4e.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-2f63a3a4e83c5da0bf4e.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-2f63a3a4e83c5da0bf4e.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-2f63a3a4e83c5da0bf4e.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-2f63a3a4e83c5da0bf4e.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-2f63a3a4e83c5da0bf4e.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-2f63a3a4e83c5da0bf4e.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-2f63a3a4e83c5da0bf4e.js"
-    },
-    "vendors-node_modules_axios_index_js-2f63a3a4e83c5da0bf4e.js": {
-      "name": "vendors-node_modules_axios_index_js-2f63a3a4e83c5da0bf4e.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-2f63a3a4e83c5da0bf4e.js"
-    },
-    "main-e451c6aedaa963f1b0c9.js": {
-      "name": "main-e451c6aedaa963f1b0c9.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-e451c6aedaa963f1b0c9.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-e451c6aedaa963f1b0c9.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-e451c6aedaa963f1b0c9.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-e451c6aedaa963f1b0c9.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-e451c6aedaa963f1b0c9.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-e451c6aedaa963f1b0c9.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-e451c6aedaa963f1b0c9.js"
-    },
-    "vendors-node_modules_axios_index_js-e451c6aedaa963f1b0c9.js": {
-      "name": "vendors-node_modules_axios_index_js-e451c6aedaa963f1b0c9.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-e451c6aedaa963f1b0c9.js"
-    },
-    "main-b6ab4ad8d47795c1a850.js": {
-      "name": "main-b6ab4ad8d47795c1a850.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-b6ab4ad8d47795c1a850.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-b6ab4ad8d47795c1a850.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-b6ab4ad8d47795c1a850.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-b6ab4ad8d47795c1a850.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-b6ab4ad8d47795c1a850.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-b6ab4ad8d47795c1a850.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-b6ab4ad8d47795c1a850.js"
-    },
-    "vendors-node_modules_axios_index_js-b6ab4ad8d47795c1a850.js": {
-      "name": "vendors-node_modules_axios_index_js-b6ab4ad8d47795c1a850.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-b6ab4ad8d47795c1a850.js"
-    },
-    "main-6b386c15a592d4e88d64.js": {
-      "name": "main-6b386c15a592d4e88d64.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-6b386c15a592d4e88d64.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-6b386c15a592d4e88d64.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-6b386c15a592d4e88d64.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-6b386c15a592d4e88d64.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-6b386c15a592d4e88d64.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-6b386c15a592d4e88d64.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-6b386c15a592d4e88d64.js"
-    },
-    "vendors-node_modules_axios_index_js-6b386c15a592d4e88d64.js": {
-      "name": "vendors-node_modules_axios_index_js-6b386c15a592d4e88d64.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-6b386c15a592d4e88d64.js"
-    },
-    "main-f5fc162e9706be66e627.js": {
-      "name": "main-f5fc162e9706be66e627.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-f5fc162e9706be66e627.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-f5fc162e9706be66e627.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-f5fc162e9706be66e627.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-f5fc162e9706be66e627.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-f5fc162e9706be66e627.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-f5fc162e9706be66e627.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-f5fc162e9706be66e627.js"
-    },
-    "vendors-node_modules_axios_index_js-f5fc162e9706be66e627.js": {
-      "name": "vendors-node_modules_axios_index_js-f5fc162e9706be66e627.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-f5fc162e9706be66e627.js"
-    },
-    "main-b4bf462c9c407de0f207.js": {
-      "name": "main-b4bf462c9c407de0f207.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-b4bf462c9c407de0f207.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-b4bf462c9c407de0f207.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-b4bf462c9c407de0f207.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-b4bf462c9c407de0f207.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-b4bf462c9c407de0f207.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-b4bf462c9c407de0f207.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-b4bf462c9c407de0f207.js"
-    },
-    "vendors-node_modules_axios_index_js-b4bf462c9c407de0f207.js": {
-      "name": "vendors-node_modules_axios_index_js-b4bf462c9c407de0f207.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-b4bf462c9c407de0f207.js"
-    },
-    "main-9cb7cdce38e9ccfba7a1.js": {
-      "name": "main-9cb7cdce38e9ccfba7a1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-9cb7cdce38e9ccfba7a1.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-9cb7cdce38e9ccfba7a1.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-9cb7cdce38e9ccfba7a1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-9cb7cdce38e9ccfba7a1.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-9cb7cdce38e9ccfba7a1.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-9cb7cdce38e9ccfba7a1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-9cb7cdce38e9ccfba7a1.js"
-    },
-    "vendors-node_modules_axios_index_js-9cb7cdce38e9ccfba7a1.js": {
-      "name": "vendors-node_modules_axios_index_js-9cb7cdce38e9ccfba7a1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-9cb7cdce38e9ccfba7a1.js"
-    },
-    "main-3bac422b39bf37dd17b6.js": {
-      "name": "main-3bac422b39bf37dd17b6.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-3bac422b39bf37dd17b6.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-3bac422b39bf37dd17b6.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-3bac422b39bf37dd17b6.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-3bac422b39bf37dd17b6.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-3bac422b39bf37dd17b6.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-3bac422b39bf37dd17b6.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-3bac422b39bf37dd17b6.js"
-    },
-    "vendors-node_modules_axios_index_js-3bac422b39bf37dd17b6.js": {
-      "name": "vendors-node_modules_axios_index_js-3bac422b39bf37dd17b6.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-3bac422b39bf37dd17b6.js"
-    },
-    "main-603172e06662a2002ac4.js": {
-      "name": "main-603172e06662a2002ac4.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-603172e06662a2002ac4.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-603172e06662a2002ac4.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-603172e06662a2002ac4.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-603172e06662a2002ac4.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-603172e06662a2002ac4.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-603172e06662a2002ac4.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-603172e06662a2002ac4.js"
-    },
-    "vendors-node_modules_axios_index_js-603172e06662a2002ac4.js": {
-      "name": "vendors-node_modules_axios_index_js-603172e06662a2002ac4.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-603172e06662a2002ac4.js"
-    },
-    "main-1857a9aa133d305cd119.js": {
-      "name": "main-1857a9aa133d305cd119.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-1857a9aa133d305cd119.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-1857a9aa133d305cd119.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-1857a9aa133d305cd119.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-1857a9aa133d305cd119.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-1857a9aa133d305cd119.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-1857a9aa133d305cd119.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-1857a9aa133d305cd119.js"
-    },
-    "vendors-node_modules_axios_index_js-1857a9aa133d305cd119.js": {
-      "name": "vendors-node_modules_axios_index_js-1857a9aa133d305cd119.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-1857a9aa133d305cd119.js"
-    },
-    "main-cccef6561960cd6a5502.js": {
-      "name": "main-cccef6561960cd6a5502.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-cccef6561960cd6a5502.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-cccef6561960cd6a5502.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-cccef6561960cd6a5502.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-cccef6561960cd6a5502.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-cccef6561960cd6a5502.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-cccef6561960cd6a5502.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-cccef6561960cd6a5502.js"
-    },
-    "vendors-node_modules_axios_index_js-cccef6561960cd6a5502.js": {
-      "name": "vendors-node_modules_axios_index_js-cccef6561960cd6a5502.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-cccef6561960cd6a5502.js"
-    },
-    "main-4b063e7f6ec622adefa1.js": {
-      "name": "main-4b063e7f6ec622adefa1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-4b063e7f6ec622adefa1.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-4b063e7f6ec622adefa1.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-4b063e7f6ec622adefa1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-4b063e7f6ec622adefa1.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-4b063e7f6ec622adefa1.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-4b063e7f6ec622adefa1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-4b063e7f6ec622adefa1.js"
-    },
-    "vendors-node_modules_axios_index_js-4b063e7f6ec622adefa1.js": {
-      "name": "vendors-node_modules_axios_index_js-4b063e7f6ec622adefa1.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-4b063e7f6ec622adefa1.js"
-    },
-    "main-13bbc18632526b6d8139.js": {
-      "name": "main-13bbc18632526b6d8139.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-13bbc18632526b6d8139.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-13bbc18632526b6d8139.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-13bbc18632526b6d8139.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-13bbc18632526b6d8139.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-13bbc18632526b6d8139.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-13bbc18632526b6d8139.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-13bbc18632526b6d8139.js"
-    },
-    "vendors-node_modules_axios_index_js-13bbc18632526b6d8139.js": {
-      "name": "vendors-node_modules_axios_index_js-13bbc18632526b6d8139.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-13bbc18632526b6d8139.js"
-    },
-    "main-79a4433a0d3de8a4c3ec.js": {
-      "name": "main-79a4433a0d3de8a4c3ec.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-79a4433a0d3de8a4c3ec.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-79a4433a0d3de8a4c3ec.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-79a4433a0d3de8a4c3ec.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-79a4433a0d3de8a4c3ec.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-79a4433a0d3de8a4c3ec.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-79a4433a0d3de8a4c3ec.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-79a4433a0d3de8a4c3ec.js"
-    },
-    "vendors-node_modules_axios_index_js-79a4433a0d3de8a4c3ec.js": {
-      "name": "vendors-node_modules_axios_index_js-79a4433a0d3de8a4c3ec.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-79a4433a0d3de8a4c3ec.js"
-    },
-    "main-9d24a72f8537c8ff4a8b.js": {
-      "name": "main-9d24a72f8537c8ff4a8b.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-9d24a72f8537c8ff4a8b.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-9d24a72f8537c8ff4a8b.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-9d24a72f8537c8ff4a8b.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-9d24a72f8537c8ff4a8b.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-9d24a72f8537c8ff4a8b.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-9d24a72f8537c8ff4a8b.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-9d24a72f8537c8ff4a8b.js"
-    },
-    "vendors-node_modules_axios_index_js-9d24a72f8537c8ff4a8b.js": {
-      "name": "vendors-node_modules_axios_index_js-9d24a72f8537c8ff4a8b.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-9d24a72f8537c8ff4a8b.js"
-    },
-    "main-6ed6d901cea55bca79ab.js": {
-      "name": "main-6ed6d901cea55bca79ab.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-6ed6d901cea55bca79ab.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-6ed6d901cea55bca79ab.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-6ed6d901cea55bca79ab.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-6ed6d901cea55bca79ab.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-6ed6d901cea55bca79ab.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-6ed6d901cea55bca79ab.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-6ed6d901cea55bca79ab.js"
-    },
-    "vendors-node_modules_axios_index_js-6ed6d901cea55bca79ab.js": {
-      "name": "vendors-node_modules_axios_index_js-6ed6d901cea55bca79ab.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-6ed6d901cea55bca79ab.js"
-    },
-    "main-f038176035fe58488fb2.js": {
-      "name": "main-f038176035fe58488fb2.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-f038176035fe58488fb2.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-f038176035fe58488fb2.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-f038176035fe58488fb2.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-f038176035fe58488fb2.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-f038176035fe58488fb2.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-f038176035fe58488fb2.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-f038176035fe58488fb2.js"
-    },
-    "vendors-node_modules_axios_index_js-f038176035fe58488fb2.js": {
-      "name": "vendors-node_modules_axios_index_js-f038176035fe58488fb2.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-f038176035fe58488fb2.js"
-    },
-    "main-bb391c88d9d1c0c655c2.js": {
-      "name": "main-bb391c88d9d1c0c655c2.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-bb391c88d9d1c0c655c2.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-bb391c88d9d1c0c655c2.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-bb391c88d9d1c0c655c2.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-bb391c88d9d1c0c655c2.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-bb391c88d9d1c0c655c2.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-bb391c88d9d1c0c655c2.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-bb391c88d9d1c0c655c2.js"
-    },
-    "vendors-node_modules_axios_index_js-bb391c88d9d1c0c655c2.js": {
-      "name": "vendors-node_modules_axios_index_js-bb391c88d9d1c0c655c2.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-bb391c88d9d1c0c655c2.js"
-    },
-    "main-39c65daf40a1365c5a9b.js": {
-      "name": "main-39c65daf40a1365c5a9b.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-39c65daf40a1365c5a9b.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-39c65daf40a1365c5a9b.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-39c65daf40a1365c5a9b.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-39c65daf40a1365c5a9b.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-39c65daf40a1365c5a9b.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-39c65daf40a1365c5a9b.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-39c65daf40a1365c5a9b.js"
-    },
-    "vendors-node_modules_axios_index_js-39c65daf40a1365c5a9b.js": {
-      "name": "vendors-node_modules_axios_index_js-39c65daf40a1365c5a9b.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-39c65daf40a1365c5a9b.js"
-    },
-    "main-60196ae56ad15448c1fa.js": {
-      "name": "main-60196ae56ad15448c1fa.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-60196ae56ad15448c1fa.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-60196ae56ad15448c1fa.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-60196ae56ad15448c1fa.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-60196ae56ad15448c1fa.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-60196ae56ad15448c1fa.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-60196ae56ad15448c1fa.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-60196ae56ad15448c1fa.js"
-    },
-    "vendors-node_modules_axios_index_js-60196ae56ad15448c1fa.js": {
-      "name": "vendors-node_modules_axios_index_js-60196ae56ad15448c1fa.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-60196ae56ad15448c1fa.js"
-    },
-    "main-68b1103e9bb8fa2285e8.js": {
-      "name": "main-68b1103e9bb8fa2285e8.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-68b1103e9bb8fa2285e8.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-68b1103e9bb8fa2285e8.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-68b1103e9bb8fa2285e8.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-68b1103e9bb8fa2285e8.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-68b1103e9bb8fa2285e8.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-68b1103e9bb8fa2285e8.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-68b1103e9bb8fa2285e8.js"
-    },
-    "vendors-node_modules_axios_index_js-68b1103e9bb8fa2285e8.js": {
-      "name": "vendors-node_modules_axios_index_js-68b1103e9bb8fa2285e8.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-68b1103e9bb8fa2285e8.js"
-    },
-    "main-adc2692b67621ba3ebfa.js": {
-      "name": "main-adc2692b67621ba3ebfa.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-adc2692b67621ba3ebfa.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-adc2692b67621ba3ebfa.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-adc2692b67621ba3ebfa.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-adc2692b67621ba3ebfa.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-adc2692b67621ba3ebfa.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-adc2692b67621ba3ebfa.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-adc2692b67621ba3ebfa.js"
-    },
-    "vendors-node_modules_axios_index_js-adc2692b67621ba3ebfa.js": {
-      "name": "vendors-node_modules_axios_index_js-adc2692b67621ba3ebfa.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-adc2692b67621ba3ebfa.js"
-    },
-    "main-a6d91f76a6127eab7c69.js": {
-      "name": "main-a6d91f76a6127eab7c69.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-a6d91f76a6127eab7c69.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-a6d91f76a6127eab7c69.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-a6d91f76a6127eab7c69.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-a6d91f76a6127eab7c69.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-a6d91f76a6127eab7c69.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-a6d91f76a6127eab7c69.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-a6d91f76a6127eab7c69.js"
-    },
-    "vendors-node_modules_axios_index_js-a6d91f76a6127eab7c69.js": {
-      "name": "vendors-node_modules_axios_index_js-a6d91f76a6127eab7c69.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-a6d91f76a6127eab7c69.js"
-    },
-    "main-7541c04dc54e5d6bcd13.js": {
-      "name": "main-7541c04dc54e5d6bcd13.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-7541c04dc54e5d6bcd13.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-7541c04dc54e5d6bcd13.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-7541c04dc54e5d6bcd13.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-7541c04dc54e5d6bcd13.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-7541c04dc54e5d6bcd13.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-7541c04dc54e5d6bcd13.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-7541c04dc54e5d6bcd13.js"
-    },
-    "vendors-node_modules_axios_index_js-7541c04dc54e5d6bcd13.js": {
-      "name": "vendors-node_modules_axios_index_js-7541c04dc54e5d6bcd13.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-7541c04dc54e5d6bcd13.js"
-    },
-    "main-749005a31ca70d7eea35.js": {
-      "name": "main-749005a31ca70d7eea35.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-749005a31ca70d7eea35.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-749005a31ca70d7eea35.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-749005a31ca70d7eea35.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-749005a31ca70d7eea35.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-749005a31ca70d7eea35.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-749005a31ca70d7eea35.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-749005a31ca70d7eea35.js"
-    },
-    "vendors-node_modules_axios_index_js-749005a31ca70d7eea35.js": {
-      "name": "vendors-node_modules_axios_index_js-749005a31ca70d7eea35.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-749005a31ca70d7eea35.js"
-    },
-    "main-93bbb56967b00106cae2.js": {
-      "name": "main-93bbb56967b00106cae2.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-93bbb56967b00106cae2.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-93bbb56967b00106cae2.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-93bbb56967b00106cae2.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-93bbb56967b00106cae2.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-93bbb56967b00106cae2.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-93bbb56967b00106cae2.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-93bbb56967b00106cae2.js"
-    },
-    "vendors-node_modules_axios_index_js-93bbb56967b00106cae2.js": {
-      "name": "vendors-node_modules_axios_index_js-93bbb56967b00106cae2.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-93bbb56967b00106cae2.js"
-    },
-    "main-32f5dadb89ad9a21887c.js": {
-      "name": "main-32f5dadb89ad9a21887c.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-32f5dadb89ad9a21887c.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-32f5dadb89ad9a21887c.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-32f5dadb89ad9a21887c.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-32f5dadb89ad9a21887c.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-32f5dadb89ad9a21887c.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-32f5dadb89ad9a21887c.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-32f5dadb89ad9a21887c.js"
-    },
-    "vendors-node_modules_axios_index_js-32f5dadb89ad9a21887c.js": {
-      "name": "vendors-node_modules_axios_index_js-32f5dadb89ad9a21887c.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-32f5dadb89ad9a21887c.js"
-    },
-    "main-fca82a73b78f7b5979d4.js": {
-      "name": "main-fca82a73b78f7b5979d4.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-fca82a73b78f7b5979d4.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-fca82a73b78f7b5979d4.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-fca82a73b78f7b5979d4.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-fca82a73b78f7b5979d4.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-fca82a73b78f7b5979d4.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-fca82a73b78f7b5979d4.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-fca82a73b78f7b5979d4.js"
-    },
-    "vendors-node_modules_axios_index_js-fca82a73b78f7b5979d4.js": {
-      "name": "vendors-node_modules_axios_index_js-fca82a73b78f7b5979d4.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-fca82a73b78f7b5979d4.js"
-    },
-    "main-5c2ee54393e74d64c830.js": {
-      "name": "main-5c2ee54393e74d64c830.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-5c2ee54393e74d64c830.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-5c2ee54393e74d64c830.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-5c2ee54393e74d64c830.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-5c2ee54393e74d64c830.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-5c2ee54393e74d64c830.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-5c2ee54393e74d64c830.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-5c2ee54393e74d64c830.js"
-    },
-    "vendors-node_modules_axios_index_js-5c2ee54393e74d64c830.js": {
-      "name": "vendors-node_modules_axios_index_js-5c2ee54393e74d64c830.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-5c2ee54393e74d64c830.js"
-    },
-    "main-f632bceea8f21422e6ff.js": {
-      "name": "main-f632bceea8f21422e6ff.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-f632bceea8f21422e6ff.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-f632bceea8f21422e6ff.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-f632bceea8f21422e6ff.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-f632bceea8f21422e6ff.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-f632bceea8f21422e6ff.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-f632bceea8f21422e6ff.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-f632bceea8f21422e6ff.js"
-    },
-    "vendors-node_modules_axios_index_js-f632bceea8f21422e6ff.js": {
-      "name": "vendors-node_modules_axios_index_js-f632bceea8f21422e6ff.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-f632bceea8f21422e6ff.js"
-    },
-    "main-78e958f30e509f7e1135.js": {
-      "name": "main-78e958f30e509f7e1135.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-78e958f30e509f7e1135.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-78e958f30e509f7e1135.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-78e958f30e509f7e1135.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-78e958f30e509f7e1135.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-78e958f30e509f7e1135.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-78e958f30e509f7e1135.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-78e958f30e509f7e1135.js"
-    },
-    "vendors-node_modules_axios_index_js-78e958f30e509f7e1135.js": {
-      "name": "vendors-node_modules_axios_index_js-78e958f30e509f7e1135.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-78e958f30e509f7e1135.js"
-    },
-    "main-38ebcd10d2105b3e930a.js": {
-      "name": "main-38ebcd10d2105b3e930a.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-38ebcd10d2105b3e930a.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-38ebcd10d2105b3e930a.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-38ebcd10d2105b3e930a.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-38ebcd10d2105b3e930a.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-38ebcd10d2105b3e930a.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-38ebcd10d2105b3e930a.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-38ebcd10d2105b3e930a.js"
-    },
-    "vendors-node_modules_axios_index_js-38ebcd10d2105b3e930a.js": {
-      "name": "vendors-node_modules_axios_index_js-38ebcd10d2105b3e930a.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-38ebcd10d2105b3e930a.js"
-    },
-    "main-1558e71b131c6c124d85.js": {
-      "name": "main-1558e71b131c6c124d85.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-1558e71b131c6c124d85.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-1558e71b131c6c124d85.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-1558e71b131c6c124d85.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-1558e71b131c6c124d85.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-1558e71b131c6c124d85.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-1558e71b131c6c124d85.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-1558e71b131c6c124d85.js"
-    },
-    "vendors-node_modules_axios_index_js-1558e71b131c6c124d85.js": {
-      "name": "vendors-node_modules_axios_index_js-1558e71b131c6c124d85.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-1558e71b131c6c124d85.js"
-    },
-    "main-665dd0e5909b66f9c89f.js": {
-      "name": "main-665dd0e5909b66f9c89f.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-665dd0e5909b66f9c89f.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-665dd0e5909b66f9c89f.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-665dd0e5909b66f9c89f.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-665dd0e5909b66f9c89f.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-665dd0e5909b66f9c89f.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-665dd0e5909b66f9c89f.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-665dd0e5909b66f9c89f.js"
-    },
-    "vendors-node_modules_axios_index_js-665dd0e5909b66f9c89f.js": {
-      "name": "vendors-node_modules_axios_index_js-665dd0e5909b66f9c89f.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-665dd0e5909b66f9c89f.js"
-    },
-    "main-49e72561cd3209768c54.js": {
-      "name": "main-49e72561cd3209768c54.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-49e72561cd3209768c54.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-49e72561cd3209768c54.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-49e72561cd3209768c54.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-49e72561cd3209768c54.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-49e72561cd3209768c54.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-49e72561cd3209768c54.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-49e72561cd3209768c54.js"
-    },
-    "vendors-node_modules_axios_index_js-49e72561cd3209768c54.js": {
-      "name": "vendors-node_modules_axios_index_js-49e72561cd3209768c54.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-49e72561cd3209768c54.js"
-    },
-    "main-15e027637d7bff336548.js": {
-      "name": "main-15e027637d7bff336548.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-15e027637d7bff336548.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-15e027637d7bff336548.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-15e027637d7bff336548.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-15e027637d7bff336548.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-frontend_static_js_components_Regist-ee3f56-15e027637d7bff336548.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-frontend_static_js_components_Regist-ee3f56-15e027637d7bff336548.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-frontend_static_js_components_Regist-ee3f56-15e027637d7bff336548.js"
-    },
-    "vendors-node_modules_axios_index_js-15e027637d7bff336548.js": {
-      "name": "vendors-node_modules_axios_index_js-15e027637d7bff336548.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-15e027637d7bff336548.js"
-    },
-    "main-09adece3e8020acacf2a.js": {
-      "name": "main-09adece3e8020acacf2a.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-09adece3e8020acacf2a.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-09adece3e8020acacf2a.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-09adece3e8020acacf2a.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-09adece3e8020acacf2a.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-09adece3e8020acacf2a.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-09adece3e8020acacf2a.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-09adece3e8020acacf2a.js"
-    },
-    "vendors-node_modules_axios_index_js-09adece3e8020acacf2a.js": {
-      "name": "vendors-node_modules_axios_index_js-09adece3e8020acacf2a.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-09adece3e8020acacf2a.js"
-    },
-    "main-138276535bb6debcf6e5.js": {
-      "name": "main-138276535bb6debcf6e5.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-138276535bb6debcf6e5.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-138276535bb6debcf6e5.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-138276535bb6debcf6e5.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-138276535bb6debcf6e5.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-138276535bb6debcf6e5.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-138276535bb6debcf6e5.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-138276535bb6debcf6e5.js"
-    },
-    "vendors-node_modules_axios_index_js-138276535bb6debcf6e5.js": {
-      "name": "vendors-node_modules_axios_index_js-138276535bb6debcf6e5.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-138276535bb6debcf6e5.js"
-    },
-    "main-9a86fe021c9bd93aeee0.js": {
-      "name": "main-9a86fe021c9bd93aeee0.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-9a86fe021c9bd93aeee0.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-9a86fe021c9bd93aeee0.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-9a86fe021c9bd93aeee0.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-9a86fe021c9bd93aeee0.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-9a86fe021c9bd93aeee0.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-9a86fe021c9bd93aeee0.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-9a86fe021c9bd93aeee0.js"
-    },
-    "vendors-node_modules_axios_index_js-9a86fe021c9bd93aeee0.js": {
-      "name": "vendors-node_modules_axios_index_js-9a86fe021c9bd93aeee0.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-9a86fe021c9bd93aeee0.js"
-    },
-    "main-4bf9d77e610047ebc150.js": {
-      "name": "main-4bf9d77e610047ebc150.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-4bf9d77e610047ebc150.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-4bf9d77e610047ebc150.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-4bf9d77e610047ebc150.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-4bf9d77e610047ebc150.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-4bf9d77e610047ebc150.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-4bf9d77e610047ebc150.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-4bf9d77e610047ebc150.js"
-    },
-    "vendors-node_modules_axios_index_js-4bf9d77e610047ebc150.js": {
-      "name": "vendors-node_modules_axios_index_js-4bf9d77e610047ebc150.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-4bf9d77e610047ebc150.js"
-    },
-    "main-04d06f1932e43627e49d.js": {
-      "name": "main-04d06f1932e43627e49d.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-04d06f1932e43627e49d.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-04d06f1932e43627e49d.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-04d06f1932e43627e49d.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-04d06f1932e43627e49d.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-04d06f1932e43627e49d.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-04d06f1932e43627e49d.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-04d06f1932e43627e49d.js"
-    },
-    "vendors-node_modules_axios_index_js-04d06f1932e43627e49d.js": {
-      "name": "vendors-node_modules_axios_index_js-04d06f1932e43627e49d.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-04d06f1932e43627e49d.js"
-    },
-    "main-a92c8d63cee451b6d9ca.js": {
-      "name": "main-a92c8d63cee451b6d9ca.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-a92c8d63cee451b6d9ca.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-a92c8d63cee451b6d9ca.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-a92c8d63cee451b6d9ca.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-a92c8d63cee451b6d9ca.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-a92c8d63cee451b6d9ca.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-a92c8d63cee451b6d9ca.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-a92c8d63cee451b6d9ca.js"
-    },
-    "vendors-node_modules_axios_index_js-a92c8d63cee451b6d9ca.js": {
-      "name": "vendors-node_modules_axios_index_js-a92c8d63cee451b6d9ca.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-a92c8d63cee451b6d9ca.js"
-    },
-    "main-f90bd9f9802074cf13b4.js": {
-      "name": "main-f90bd9f9802074cf13b4.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-f90bd9f9802074cf13b4.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-f90bd9f9802074cf13b4.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-f90bd9f9802074cf13b4.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-f90bd9f9802074cf13b4.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-f90bd9f9802074cf13b4.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-f90bd9f9802074cf13b4.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-f90bd9f9802074cf13b4.js"
-    },
-    "vendors-node_modules_axios_index_js-f90bd9f9802074cf13b4.js": {
-      "name": "vendors-node_modules_axios_index_js-f90bd9f9802074cf13b4.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-f90bd9f9802074cf13b4.js"
-    },
-    "main-7a9196d23ff13f4db498.js": {
-      "name": "main-7a9196d23ff13f4db498.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-7a9196d23ff13f4db498.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-7a9196d23ff13f4db498.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-7a9196d23ff13f4db498.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-7a9196d23ff13f4db498.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-7a9196d23ff13f4db498.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-7a9196d23ff13f4db498.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-7a9196d23ff13f4db498.js"
-    },
-    "vendors-node_modules_axios_index_js-7a9196d23ff13f4db498.js": {
-      "name": "vendors-node_modules_axios_index_js-7a9196d23ff13f4db498.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-7a9196d23ff13f4db498.js"
-    },
-    "main-a790f2fdbd00a216eff6.js": {
-      "name": "main-a790f2fdbd00a216eff6.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-a790f2fdbd00a216eff6.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-a790f2fdbd00a216eff6.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-a790f2fdbd00a216eff6.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-a790f2fdbd00a216eff6.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-a790f2fdbd00a216eff6.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-a790f2fdbd00a216eff6.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-a790f2fdbd00a216eff6.js"
-    },
-    "vendors-node_modules_axios_index_js-a790f2fdbd00a216eff6.js": {
-      "name": "vendors-node_modules_axios_index_js-a790f2fdbd00a216eff6.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-a790f2fdbd00a216eff6.js"
-    },
-    "main-39bb8bdf659e07260d51.js": {
-      "name": "main-39bb8bdf659e07260d51.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-39bb8bdf659e07260d51.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-39bb8bdf659e07260d51.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-39bb8bdf659e07260d51.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-39bb8bdf659e07260d51.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-39bb8bdf659e07260d51.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-39bb8bdf659e07260d51.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-39bb8bdf659e07260d51.js"
-    },
-    "vendors-node_modules_axios_index_js-39bb8bdf659e07260d51.js": {
-      "name": "vendors-node_modules_axios_index_js-39bb8bdf659e07260d51.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-39bb8bdf659e07260d51.js"
-    },
-    "main-790d1b53243898e3ed3f.js": {
-      "name": "main-790d1b53243898e3ed3f.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-790d1b53243898e3ed3f.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-790d1b53243898e3ed3f.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-790d1b53243898e3ed3f.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-790d1b53243898e3ed3f.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-790d1b53243898e3ed3f.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-790d1b53243898e3ed3f.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-790d1b53243898e3ed3f.js"
-    },
-    "vendors-node_modules_axios_index_js-790d1b53243898e3ed3f.js": {
-      "name": "vendors-node_modules_axios_index_js-790d1b53243898e3ed3f.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-790d1b53243898e3ed3f.js"
-    },
-    "main-01dc8e9563cb4320e11f.js": {
-      "name": "main-01dc8e9563cb4320e11f.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-01dc8e9563cb4320e11f.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-01dc8e9563cb4320e11f.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-01dc8e9563cb4320e11f.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-01dc8e9563cb4320e11f.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-01dc8e9563cb4320e11f.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-01dc8e9563cb4320e11f.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-01dc8e9563cb4320e11f.js"
-    },
-    "vendors-node_modules_axios_index_js-01dc8e9563cb4320e11f.js": {
-      "name": "vendors-node_modules_axios_index_js-01dc8e9563cb4320e11f.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-01dc8e9563cb4320e11f.js"
-    },
-    "main-bf45902d5338144bf1d4.js": {
-      "name": "main-bf45902d5338144bf1d4.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-bf45902d5338144bf1d4.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-bf45902d5338144bf1d4.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-bf45902d5338144bf1d4.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-bf45902d5338144bf1d4.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-bf45902d5338144bf1d4.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-bf45902d5338144bf1d4.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-bf45902d5338144bf1d4.js"
-    },
-    "vendors-node_modules_axios_index_js-bf45902d5338144bf1d4.js": {
-      "name": "vendors-node_modules_axios_index_js-bf45902d5338144bf1d4.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-bf45902d5338144bf1d4.js"
-    },
-    "main-af5196092cc15c529a38.js": {
-      "name": "main-af5196092cc15c529a38.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-af5196092cc15c529a38.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-af5196092cc15c529a38.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-af5196092cc15c529a38.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-af5196092cc15c529a38.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-af5196092cc15c529a38.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-af5196092cc15c529a38.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-af5196092cc15c529a38.js"
-    },
-    "vendors-node_modules_axios_index_js-af5196092cc15c529a38.js": {
-      "name": "vendors-node_modules_axios_index_js-af5196092cc15c529a38.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-af5196092cc15c529a38.js"
-    },
-    "main-0455f13916b107268f13.js": {
-      "name": "main-0455f13916b107268f13.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-0455f13916b107268f13.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-0455f13916b107268f13.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-0455f13916b107268f13.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-0455f13916b107268f13.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-0455f13916b107268f13.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-0455f13916b107268f13.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-0455f13916b107268f13.js"
-    },
-    "vendors-node_modules_axios_index_js-0455f13916b107268f13.js": {
-      "name": "vendors-node_modules_axios_index_js-0455f13916b107268f13.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-0455f13916b107268f13.js"
-    },
-    "main-fc3945899544a3079441.js": {
-      "name": "main-fc3945899544a3079441.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-fc3945899544a3079441.js"
-    },
-    "frontend_static_js_components_ToDos_RenderToDos_js-fc3945899544a3079441.js": {
-      "name": "frontend_static_js_components_ToDos_RenderToDos_js-fc3945899544a3079441.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-fc3945899544a3079441.js"
-    },
-    "frontend_static_js_components_Register_RenderRegister_js-fc3945899544a3079441.js": {
-      "name": "frontend_static_js_components_Register_RenderRegister_js-fc3945899544a3079441.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-fc3945899544a3079441.js"
-    },
-    "vendors-node_modules_axios_index_js-fc3945899544a3079441.js": {
-      "name": "vendors-node_modules_axios_index_js-fc3945899544a3079441.js",
-      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-fc3945899544a3079441.js"
+    "main-821ae395d592061e84fc.js": {
+      "name": "main-821ae395d592061e84fc.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-821ae395d592061e84fc.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-821ae395d592061e84fc.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-821ae395d592061e84fc.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-821ae395d592061e84fc.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-821ae395d592061e84fc.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-821ae395d592061e84fc.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-821ae395d592061e84fc.js"
+    },
+    "vendors-node_modules_axios_index_js-821ae395d592061e84fc.js": {
+      "name": "vendors-node_modules_axios_index_js-821ae395d592061e84fc.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-821ae395d592061e84fc.js"
+    },
+    "main-bea1cedff8904ad96863.js": {
+      "name": "main-bea1cedff8904ad96863.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-bea1cedff8904ad96863.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-bea1cedff8904ad96863.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-bea1cedff8904ad96863.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-bea1cedff8904ad96863.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-bea1cedff8904ad96863.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-bea1cedff8904ad96863.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-bea1cedff8904ad96863.js"
+    },
+    "vendors-node_modules_axios_index_js-bea1cedff8904ad96863.js": {
+      "name": "vendors-node_modules_axios_index_js-bea1cedff8904ad96863.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-bea1cedff8904ad96863.js"
+    },
+    "main-a973f5d825e52689ca0c.js": {
+      "name": "main-a973f5d825e52689ca0c.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-a973f5d825e52689ca0c.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-a973f5d825e52689ca0c.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-a973f5d825e52689ca0c.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-a973f5d825e52689ca0c.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-a973f5d825e52689ca0c.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-a973f5d825e52689ca0c.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-a973f5d825e52689ca0c.js"
+    },
+    "vendors-node_modules_axios_index_js-a973f5d825e52689ca0c.js": {
+      "name": "vendors-node_modules_axios_index_js-a973f5d825e52689ca0c.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-a973f5d825e52689ca0c.js"
+    },
+    "main-ee7f241969bc86685d85.js": {
+      "name": "main-ee7f241969bc86685d85.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-ee7f241969bc86685d85.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-ee7f241969bc86685d85.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-ee7f241969bc86685d85.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-ee7f241969bc86685d85.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-ee7f241969bc86685d85.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-ee7f241969bc86685d85.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-ee7f241969bc86685d85.js"
+    },
+    "vendors-node_modules_axios_index_js-ee7f241969bc86685d85.js": {
+      "name": "vendors-node_modules_axios_index_js-ee7f241969bc86685d85.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-ee7f241969bc86685d85.js"
+    },
+    "main-490074882d5de2d01376.js": {
+      "name": "main-490074882d5de2d01376.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-490074882d5de2d01376.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-490074882d5de2d01376.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-490074882d5de2d01376.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-490074882d5de2d01376.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-490074882d5de2d01376.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-490074882d5de2d01376.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-490074882d5de2d01376.js"
+    },
+    "vendors-node_modules_axios_index_js-490074882d5de2d01376.js": {
+      "name": "vendors-node_modules_axios_index_js-490074882d5de2d01376.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-490074882d5de2d01376.js"
+    },
+    "main-bf17543516544d4784d4.js": {
+      "name": "main-bf17543516544d4784d4.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-bf17543516544d4784d4.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-bf17543516544d4784d4.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-bf17543516544d4784d4.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-bf17543516544d4784d4.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-bf17543516544d4784d4.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-bf17543516544d4784d4.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-bf17543516544d4784d4.js"
+    },
+    "vendors-node_modules_axios_index_js-bf17543516544d4784d4.js": {
+      "name": "vendors-node_modules_axios_index_js-bf17543516544d4784d4.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-bf17543516544d4784d4.js"
+    },
+    "main-96e20f50167893f1e690.js": {
+      "name": "main-96e20f50167893f1e690.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-96e20f50167893f1e690.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-96e20f50167893f1e690.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-96e20f50167893f1e690.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-96e20f50167893f1e690.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-96e20f50167893f1e690.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-96e20f50167893f1e690.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-96e20f50167893f1e690.js"
+    },
+    "vendors-node_modules_axios_index_js-96e20f50167893f1e690.js": {
+      "name": "vendors-node_modules_axios_index_js-96e20f50167893f1e690.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-96e20f50167893f1e690.js"
+    },
+    "main-0b649775717e81efa27f.js": {
+      "name": "main-0b649775717e81efa27f.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-0b649775717e81efa27f.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-0b649775717e81efa27f.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-0b649775717e81efa27f.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-0b649775717e81efa27f.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-0b649775717e81efa27f.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-0b649775717e81efa27f.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-0b649775717e81efa27f.js"
+    },
+    "vendors-node_modules_axios_index_js-0b649775717e81efa27f.js": {
+      "name": "vendors-node_modules_axios_index_js-0b649775717e81efa27f.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-0b649775717e81efa27f.js"
+    },
+    "main-4ddedd5bbfdbb460ada6.js": {
+      "name": "main-4ddedd5bbfdbb460ada6.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-4ddedd5bbfdbb460ada6.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-4ddedd5bbfdbb460ada6.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-4ddedd5bbfdbb460ada6.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-4ddedd5bbfdbb460ada6.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-4ddedd5bbfdbb460ada6.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-4ddedd5bbfdbb460ada6.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-4ddedd5bbfdbb460ada6.js"
+    },
+    "vendors-node_modules_axios_index_js-4ddedd5bbfdbb460ada6.js": {
+      "name": "vendors-node_modules_axios_index_js-4ddedd5bbfdbb460ada6.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-4ddedd5bbfdbb460ada6.js"
+    },
+    "main-6a3d0e809dd2f626b243.js": {
+      "name": "main-6a3d0e809dd2f626b243.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-6a3d0e809dd2f626b243.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-6a3d0e809dd2f626b243.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-6a3d0e809dd2f626b243.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-6a3d0e809dd2f626b243.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-6a3d0e809dd2f626b243.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-6a3d0e809dd2f626b243.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-6a3d0e809dd2f626b243.js"
+    },
+    "vendors-node_modules_axios_index_js-6a3d0e809dd2f626b243.js": {
+      "name": "vendors-node_modules_axios_index_js-6a3d0e809dd2f626b243.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-6a3d0e809dd2f626b243.js"
+    },
+    "main-50c43534b09281c1d2b9.js": {
+      "name": "main-50c43534b09281c1d2b9.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-50c43534b09281c1d2b9.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-50c43534b09281c1d2b9.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-50c43534b09281c1d2b9.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-50c43534b09281c1d2b9.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-50c43534b09281c1d2b9.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-50c43534b09281c1d2b9.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-50c43534b09281c1d2b9.js"
+    },
+    "vendors-node_modules_axios_index_js-50c43534b09281c1d2b9.js": {
+      "name": "vendors-node_modules_axios_index_js-50c43534b09281c1d2b9.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-50c43534b09281c1d2b9.js"
+    },
+    "main-ae449fb06d55fb4e8956.js": {
+      "name": "main-ae449fb06d55fb4e8956.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-ae449fb06d55fb4e8956.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-ae449fb06d55fb4e8956.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-ae449fb06d55fb4e8956.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-ae449fb06d55fb4e8956.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-ae449fb06d55fb4e8956.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-ae449fb06d55fb4e8956.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-ae449fb06d55fb4e8956.js"
+    },
+    "vendors-node_modules_axios_index_js-ae449fb06d55fb4e8956.js": {
+      "name": "vendors-node_modules_axios_index_js-ae449fb06d55fb4e8956.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-ae449fb06d55fb4e8956.js"
+    },
+    "main-992ccd8d43508bc429ca.js": {
+      "name": "main-992ccd8d43508bc429ca.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-992ccd8d43508bc429ca.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-992ccd8d43508bc429ca.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-992ccd8d43508bc429ca.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-992ccd8d43508bc429ca.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-992ccd8d43508bc429ca.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-992ccd8d43508bc429ca.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-992ccd8d43508bc429ca.js"
+    },
+    "vendors-node_modules_axios_index_js-992ccd8d43508bc429ca.js": {
+      "name": "vendors-node_modules_axios_index_js-992ccd8d43508bc429ca.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-992ccd8d43508bc429ca.js"
+    },
+    "main-df84e2d627af84cf4069.js": {
+      "name": "main-df84e2d627af84cf4069.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-df84e2d627af84cf4069.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-df84e2d627af84cf4069.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-df84e2d627af84cf4069.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-df84e2d627af84cf4069.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-df84e2d627af84cf4069.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-df84e2d627af84cf4069.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-df84e2d627af84cf4069.js"
+    },
+    "vendors-node_modules_axios_index_js-df84e2d627af84cf4069.js": {
+      "name": "vendors-node_modules_axios_index_js-df84e2d627af84cf4069.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-df84e2d627af84cf4069.js"
+    },
+    "main-d76b71824b82e73ee53f.js": {
+      "name": "main-d76b71824b82e73ee53f.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-d76b71824b82e73ee53f.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-d76b71824b82e73ee53f.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-d76b71824b82e73ee53f.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-d76b71824b82e73ee53f.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-d76b71824b82e73ee53f.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-d76b71824b82e73ee53f.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-d76b71824b82e73ee53f.js"
+    },
+    "vendors-node_modules_axios_index_js-d76b71824b82e73ee53f.js": {
+      "name": "vendors-node_modules_axios_index_js-d76b71824b82e73ee53f.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-d76b71824b82e73ee53f.js"
+    },
+    "main-5ebf0fd242da3f51e74c.js": {
+      "name": "main-5ebf0fd242da3f51e74c.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-5ebf0fd242da3f51e74c.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-5ebf0fd242da3f51e74c.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-5ebf0fd242da3f51e74c.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-5ebf0fd242da3f51e74c.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-5ebf0fd242da3f51e74c.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-5ebf0fd242da3f51e74c.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-5ebf0fd242da3f51e74c.js"
+    },
+    "vendors-node_modules_axios_index_js-5ebf0fd242da3f51e74c.js": {
+      "name": "vendors-node_modules_axios_index_js-5ebf0fd242da3f51e74c.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-5ebf0fd242da3f51e74c.js"
+    },
+    "main-15701005713eb0e983f0.js": {
+      "name": "main-15701005713eb0e983f0.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-15701005713eb0e983f0.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-15701005713eb0e983f0.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-15701005713eb0e983f0.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-15701005713eb0e983f0.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-15701005713eb0e983f0.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-15701005713eb0e983f0.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-15701005713eb0e983f0.js"
+    },
+    "vendors-node_modules_axios_index_js-15701005713eb0e983f0.js": {
+      "name": "vendors-node_modules_axios_index_js-15701005713eb0e983f0.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-15701005713eb0e983f0.js"
+    },
+    "main-dbe1b1f143e52250cca2.js": {
+      "name": "main-dbe1b1f143e52250cca2.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-dbe1b1f143e52250cca2.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-dbe1b1f143e52250cca2.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-dbe1b1f143e52250cca2.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-dbe1b1f143e52250cca2.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-dbe1b1f143e52250cca2.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-dbe1b1f143e52250cca2.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-dbe1b1f143e52250cca2.js"
+    },
+    "vendors-node_modules_axios_index_js-dbe1b1f143e52250cca2.js": {
+      "name": "vendors-node_modules_axios_index_js-dbe1b1f143e52250cca2.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-dbe1b1f143e52250cca2.js"
+    },
+    "main-ccd05449e791589fdffb.js": {
+      "name": "main-ccd05449e791589fdffb.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-ccd05449e791589fdffb.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-ccd05449e791589fdffb.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-ccd05449e791589fdffb.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-ccd05449e791589fdffb.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-ccd05449e791589fdffb.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-ccd05449e791589fdffb.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-ccd05449e791589fdffb.js"
+    },
+    "vendors-node_modules_axios_index_js-ccd05449e791589fdffb.js": {
+      "name": "vendors-node_modules_axios_index_js-ccd05449e791589fdffb.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-ccd05449e791589fdffb.js"
+    },
+    "main-248a68527e62dbb5b8cb.js": {
+      "name": "main-248a68527e62dbb5b8cb.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-248a68527e62dbb5b8cb.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-248a68527e62dbb5b8cb.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-248a68527e62dbb5b8cb.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-248a68527e62dbb5b8cb.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-248a68527e62dbb5b8cb.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-248a68527e62dbb5b8cb.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-248a68527e62dbb5b8cb.js"
+    },
+    "vendors-node_modules_axios_index_js-248a68527e62dbb5b8cb.js": {
+      "name": "vendors-node_modules_axios_index_js-248a68527e62dbb5b8cb.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-248a68527e62dbb5b8cb.js"
+    },
+    "main-0603fd8e72d48a97ddf2.js": {
+      "name": "main-0603fd8e72d48a97ddf2.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-0603fd8e72d48a97ddf2.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-0603fd8e72d48a97ddf2.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-0603fd8e72d48a97ddf2.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-0603fd8e72d48a97ddf2.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-0603fd8e72d48a97ddf2.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-0603fd8e72d48a97ddf2.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-0603fd8e72d48a97ddf2.js"
+    },
+    "vendors-node_modules_axios_index_js-0603fd8e72d48a97ddf2.js": {
+      "name": "vendors-node_modules_axios_index_js-0603fd8e72d48a97ddf2.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-0603fd8e72d48a97ddf2.js"
+    },
+    "main-8e179705c36e53469a5e.js": {
+      "name": "main-8e179705c36e53469a5e.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-8e179705c36e53469a5e.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-8e179705c36e53469a5e.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-8e179705c36e53469a5e.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-8e179705c36e53469a5e.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-8e179705c36e53469a5e.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-8e179705c36e53469a5e.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-8e179705c36e53469a5e.js"
+    },
+    "vendors-node_modules_axios_index_js-8e179705c36e53469a5e.js": {
+      "name": "vendors-node_modules_axios_index_js-8e179705c36e53469a5e.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-8e179705c36e53469a5e.js"
+    },
+    "main-0404c5981bbb588e52c4.js": {
+      "name": "main-0404c5981bbb588e52c4.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-0404c5981bbb588e52c4.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-0404c5981bbb588e52c4.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-0404c5981bbb588e52c4.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-0404c5981bbb588e52c4.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-0404c5981bbb588e52c4.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-0404c5981bbb588e52c4.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-0404c5981bbb588e52c4.js"
+    },
+    "vendors-node_modules_axios_index_js-0404c5981bbb588e52c4.js": {
+      "name": "vendors-node_modules_axios_index_js-0404c5981bbb588e52c4.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-0404c5981bbb588e52c4.js"
+    },
+    "main-1b6af0add1fd37fe72d0.js": {
+      "name": "main-1b6af0add1fd37fe72d0.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-1b6af0add1fd37fe72d0.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-1b6af0add1fd37fe72d0.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-1b6af0add1fd37fe72d0.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-1b6af0add1fd37fe72d0.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-1b6af0add1fd37fe72d0.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-1b6af0add1fd37fe72d0.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-1b6af0add1fd37fe72d0.js"
+    },
+    "vendors-node_modules_axios_index_js-1b6af0add1fd37fe72d0.js": {
+      "name": "vendors-node_modules_axios_index_js-1b6af0add1fd37fe72d0.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-1b6af0add1fd37fe72d0.js"
+    },
+    "main-0294f3aed4760d5b7b85.js": {
+      "name": "main-0294f3aed4760d5b7b85.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-0294f3aed4760d5b7b85.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-0294f3aed4760d5b7b85.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-0294f3aed4760d5b7b85.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-0294f3aed4760d5b7b85.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-0294f3aed4760d5b7b85.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-0294f3aed4760d5b7b85.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-0294f3aed4760d5b7b85.js"
+    },
+    "vendors-node_modules_axios_index_js-0294f3aed4760d5b7b85.js": {
+      "name": "vendors-node_modules_axios_index_js-0294f3aed4760d5b7b85.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-0294f3aed4760d5b7b85.js"
+    },
+    "main-a67c40dcb6d9580571a4.js": {
+      "name": "main-a67c40dcb6d9580571a4.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-a67c40dcb6d9580571a4.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-a67c40dcb6d9580571a4.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-a67c40dcb6d9580571a4.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-a67c40dcb6d9580571a4.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-a67c40dcb6d9580571a4.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-a67c40dcb6d9580571a4.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-a67c40dcb6d9580571a4.js"
+    },
+    "vendors-node_modules_axios_index_js-a67c40dcb6d9580571a4.js": {
+      "name": "vendors-node_modules_axios_index_js-a67c40dcb6d9580571a4.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-a67c40dcb6d9580571a4.js"
+    },
+    "main-267586bf3f7d0c681a9a.js": {
+      "name": "main-267586bf3f7d0c681a9a.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-267586bf3f7d0c681a9a.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-267586bf3f7d0c681a9a.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-267586bf3f7d0c681a9a.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-267586bf3f7d0c681a9a.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-267586bf3f7d0c681a9a.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-267586bf3f7d0c681a9a.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-267586bf3f7d0c681a9a.js"
+    },
+    "vendors-node_modules_axios_index_js-267586bf3f7d0c681a9a.js": {
+      "name": "vendors-node_modules_axios_index_js-267586bf3f7d0c681a9a.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-267586bf3f7d0c681a9a.js"
+    },
+    "main-6c29df1c88a840f2d8cf.js": {
+      "name": "main-6c29df1c88a840f2d8cf.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-6c29df1c88a840f2d8cf.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-6c29df1c88a840f2d8cf.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-6c29df1c88a840f2d8cf.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-6c29df1c88a840f2d8cf.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-6c29df1c88a840f2d8cf.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-6c29df1c88a840f2d8cf.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-6c29df1c88a840f2d8cf.js"
+    },
+    "vendors-node_modules_axios_index_js-6c29df1c88a840f2d8cf.js": {
+      "name": "vendors-node_modules_axios_index_js-6c29df1c88a840f2d8cf.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-6c29df1c88a840f2d8cf.js"
+    },
+    "main-bfadf5b8138738a36f81.js": {
+      "name": "main-bfadf5b8138738a36f81.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-bfadf5b8138738a36f81.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-bfadf5b8138738a36f81.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-bfadf5b8138738a36f81.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-bfadf5b8138738a36f81.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-bfadf5b8138738a36f81.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-bfadf5b8138738a36f81.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-bfadf5b8138738a36f81.js"
+    },
+    "vendors-node_modules_axios_index_js-bfadf5b8138738a36f81.js": {
+      "name": "vendors-node_modules_axios_index_js-bfadf5b8138738a36f81.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-bfadf5b8138738a36f81.js"
+    },
+    "main-99de62fc45216eee0494.js": {
+      "name": "main-99de62fc45216eee0494.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-99de62fc45216eee0494.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-99de62fc45216eee0494.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-99de62fc45216eee0494.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-99de62fc45216eee0494.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-99de62fc45216eee0494.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-99de62fc45216eee0494.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-99de62fc45216eee0494.js"
+    },
+    "vendors-node_modules_axios_index_js-99de62fc45216eee0494.js": {
+      "name": "vendors-node_modules_axios_index_js-99de62fc45216eee0494.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-99de62fc45216eee0494.js"
+    },
+    "main-77e6f97e919298543a20.js": {
+      "name": "main-77e6f97e919298543a20.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-77e6f97e919298543a20.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-77e6f97e919298543a20.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-77e6f97e919298543a20.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-77e6f97e919298543a20.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-77e6f97e919298543a20.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-77e6f97e919298543a20.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-77e6f97e919298543a20.js"
+    },
+    "vendors-node_modules_axios_index_js-77e6f97e919298543a20.js": {
+      "name": "vendors-node_modules_axios_index_js-77e6f97e919298543a20.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-77e6f97e919298543a20.js"
+    },
+    "main-1fc9979a239ef850e09b.js": {
+      "name": "main-1fc9979a239ef850e09b.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-1fc9979a239ef850e09b.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-1fc9979a239ef850e09b.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-1fc9979a239ef850e09b.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-1fc9979a239ef850e09b.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-1fc9979a239ef850e09b.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-1fc9979a239ef850e09b.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-1fc9979a239ef850e09b.js"
+    },
+    "vendors-node_modules_axios_index_js-1fc9979a239ef850e09b.js": {
+      "name": "vendors-node_modules_axios_index_js-1fc9979a239ef850e09b.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-1fc9979a239ef850e09b.js"
+    },
+    "main-f80934ab864f831c43ee.js": {
+      "name": "main-f80934ab864f831c43ee.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-f80934ab864f831c43ee.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-f80934ab864f831c43ee.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-f80934ab864f831c43ee.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-f80934ab864f831c43ee.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-f80934ab864f831c43ee.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-f80934ab864f831c43ee.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-f80934ab864f831c43ee.js"
+    },
+    "vendors-node_modules_axios_index_js-f80934ab864f831c43ee.js": {
+      "name": "vendors-node_modules_axios_index_js-f80934ab864f831c43ee.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-f80934ab864f831c43ee.js"
+    },
+    "main-8912e925a17f2e8ff1fc.js": {
+      "name": "main-8912e925a17f2e8ff1fc.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-8912e925a17f2e8ff1fc.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-8912e925a17f2e8ff1fc.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-8912e925a17f2e8ff1fc.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-8912e925a17f2e8ff1fc.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-8912e925a17f2e8ff1fc.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-8912e925a17f2e8ff1fc.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-8912e925a17f2e8ff1fc.js"
+    },
+    "vendors-node_modules_axios_index_js-8912e925a17f2e8ff1fc.js": {
+      "name": "vendors-node_modules_axios_index_js-8912e925a17f2e8ff1fc.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-8912e925a17f2e8ff1fc.js"
+    },
+    "main-dafdf8e050864d9c9ff6.js": {
+      "name": "main-dafdf8e050864d9c9ff6.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-dafdf8e050864d9c9ff6.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-dafdf8e050864d9c9ff6.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-dafdf8e050864d9c9ff6.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-dafdf8e050864d9c9ff6.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-dafdf8e050864d9c9ff6.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-dafdf8e050864d9c9ff6.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-dafdf8e050864d9c9ff6.js"
+    },
+    "vendors-node_modules_axios_index_js-dafdf8e050864d9c9ff6.js": {
+      "name": "vendors-node_modules_axios_index_js-dafdf8e050864d9c9ff6.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-dafdf8e050864d9c9ff6.js"
+    },
+    "main-1b2ac4ed971fd6ba98b3.js": {
+      "name": "main-1b2ac4ed971fd6ba98b3.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-1b2ac4ed971fd6ba98b3.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-1b2ac4ed971fd6ba98b3.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-1b2ac4ed971fd6ba98b3.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-1b2ac4ed971fd6ba98b3.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-1b2ac4ed971fd6ba98b3.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-1b2ac4ed971fd6ba98b3.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-1b2ac4ed971fd6ba98b3.js"
+    },
+    "vendors-node_modules_axios_index_js-1b2ac4ed971fd6ba98b3.js": {
+      "name": "vendors-node_modules_axios_index_js-1b2ac4ed971fd6ba98b3.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-1b2ac4ed971fd6ba98b3.js"
+    },
+    "main-399d0e178cb8aad360a2.js": {
+      "name": "main-399d0e178cb8aad360a2.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-399d0e178cb8aad360a2.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-399d0e178cb8aad360a2.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-399d0e178cb8aad360a2.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-399d0e178cb8aad360a2.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-399d0e178cb8aad360a2.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-399d0e178cb8aad360a2.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-399d0e178cb8aad360a2.js"
+    },
+    "vendors-node_modules_axios_index_js-399d0e178cb8aad360a2.js": {
+      "name": "vendors-node_modules_axios_index_js-399d0e178cb8aad360a2.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-399d0e178cb8aad360a2.js"
+    },
+    "main-9cb397f982eb8b6c3ff1.js": {
+      "name": "main-9cb397f982eb8b6c3ff1.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-9cb397f982eb8b6c3ff1.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-9cb397f982eb8b6c3ff1.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-9cb397f982eb8b6c3ff1.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-9cb397f982eb8b6c3ff1.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-9cb397f982eb8b6c3ff1.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-9cb397f982eb8b6c3ff1.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-9cb397f982eb8b6c3ff1.js"
+    },
+    "vendors-node_modules_axios_index_js-9cb397f982eb8b6c3ff1.js": {
+      "name": "vendors-node_modules_axios_index_js-9cb397f982eb8b6c3ff1.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-9cb397f982eb8b6c3ff1.js"
+    },
+    "main-145bb1177ea218c12d6a.js": {
+      "name": "main-145bb1177ea218c12d6a.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-145bb1177ea218c12d6a.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-145bb1177ea218c12d6a.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-145bb1177ea218c12d6a.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-145bb1177ea218c12d6a.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-145bb1177ea218c12d6a.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-145bb1177ea218c12d6a.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-145bb1177ea218c12d6a.js"
+    },
+    "vendors-node_modules_axios_index_js-145bb1177ea218c12d6a.js": {
+      "name": "vendors-node_modules_axios_index_js-145bb1177ea218c12d6a.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-145bb1177ea218c12d6a.js"
+    },
+    "main-d6eefc389351f0218a43.js": {
+      "name": "main-d6eefc389351f0218a43.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-d6eefc389351f0218a43.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-d6eefc389351f0218a43.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-d6eefc389351f0218a43.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-d6eefc389351f0218a43.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-d6eefc389351f0218a43.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-d6eefc389351f0218a43.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-d6eefc389351f0218a43.js"
+    },
+    "vendors-node_modules_axios_index_js-d6eefc389351f0218a43.js": {
+      "name": "vendors-node_modules_axios_index_js-d6eefc389351f0218a43.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-d6eefc389351f0218a43.js"
+    },
+    "main-386b27a399cbe07f17e9.js": {
+      "name": "main-386b27a399cbe07f17e9.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-386b27a399cbe07f17e9.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-386b27a399cbe07f17e9.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-386b27a399cbe07f17e9.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-386b27a399cbe07f17e9.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-386b27a399cbe07f17e9.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-386b27a399cbe07f17e9.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-386b27a399cbe07f17e9.js"
+    },
+    "vendors-node_modules_axios_index_js-386b27a399cbe07f17e9.js": {
+      "name": "vendors-node_modules_axios_index_js-386b27a399cbe07f17e9.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-386b27a399cbe07f17e9.js"
+    },
+    "main-83baee7f46a63a40418a.js": {
+      "name": "main-83baee7f46a63a40418a.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-83baee7f46a63a40418a.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-83baee7f46a63a40418a.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-83baee7f46a63a40418a.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-83baee7f46a63a40418a.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-83baee7f46a63a40418a.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-83baee7f46a63a40418a.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-83baee7f46a63a40418a.js"
+    },
+    "vendors-node_modules_axios_index_js-83baee7f46a63a40418a.js": {
+      "name": "vendors-node_modules_axios_index_js-83baee7f46a63a40418a.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-83baee7f46a63a40418a.js"
+    },
+    "main-5bb8c4e1fb0fb32d5d77.js": {
+      "name": "main-5bb8c4e1fb0fb32d5d77.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-5bb8c4e1fb0fb32d5d77.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-5bb8c4e1fb0fb32d5d77.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-5bb8c4e1fb0fb32d5d77.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-5bb8c4e1fb0fb32d5d77.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-5bb8c4e1fb0fb32d5d77.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-5bb8c4e1fb0fb32d5d77.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-5bb8c4e1fb0fb32d5d77.js"
+    },
+    "vendors-node_modules_axios_index_js-5bb8c4e1fb0fb32d5d77.js": {
+      "name": "vendors-node_modules_axios_index_js-5bb8c4e1fb0fb32d5d77.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-5bb8c4e1fb0fb32d5d77.js"
+    },
+    "main-b0b628e1165a716e3a33.js": {
+      "name": "main-b0b628e1165a716e3a33.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-b0b628e1165a716e3a33.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-b0b628e1165a716e3a33.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-b0b628e1165a716e3a33.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-b0b628e1165a716e3a33.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-b0b628e1165a716e3a33.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-b0b628e1165a716e3a33.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-b0b628e1165a716e3a33.js"
+    },
+    "vendors-node_modules_axios_index_js-b0b628e1165a716e3a33.js": {
+      "name": "vendors-node_modules_axios_index_js-b0b628e1165a716e3a33.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-b0b628e1165a716e3a33.js"
+    },
+    "main-e486073d39ecc0808c24.js": {
+      "name": "main-e486073d39ecc0808c24.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-e486073d39ecc0808c24.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-e486073d39ecc0808c24.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-e486073d39ecc0808c24.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-e486073d39ecc0808c24.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-e486073d39ecc0808c24.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-e486073d39ecc0808c24.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-e486073d39ecc0808c24.js"
+    },
+    "vendors-node_modules_axios_index_js-e486073d39ecc0808c24.js": {
+      "name": "vendors-node_modules_axios_index_js-e486073d39ecc0808c24.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-e486073d39ecc0808c24.js"
+    },
+    "main-59c8fca993666750d4b9.js": {
+      "name": "main-59c8fca993666750d4b9.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-59c8fca993666750d4b9.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-59c8fca993666750d4b9.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-59c8fca993666750d4b9.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-59c8fca993666750d4b9.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-59c8fca993666750d4b9.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-59c8fca993666750d4b9.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-59c8fca993666750d4b9.js"
+    },
+    "vendors-node_modules_axios_index_js-59c8fca993666750d4b9.js": {
+      "name": "vendors-node_modules_axios_index_js-59c8fca993666750d4b9.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-59c8fca993666750d4b9.js"
+    },
+    "main-19fd389d8352d7ac67a3.js": {
+      "name": "main-19fd389d8352d7ac67a3.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-19fd389d8352d7ac67a3.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-19fd389d8352d7ac67a3.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-19fd389d8352d7ac67a3.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-19fd389d8352d7ac67a3.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-19fd389d8352d7ac67a3.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-19fd389d8352d7ac67a3.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-19fd389d8352d7ac67a3.js"
+    },
+    "vendors-node_modules_axios_index_js-19fd389d8352d7ac67a3.js": {
+      "name": "vendors-node_modules_axios_index_js-19fd389d8352d7ac67a3.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-19fd389d8352d7ac67a3.js"
+    },
+    "main-3a2e917ca0969f45c8ec.js": {
+      "name": "main-3a2e917ca0969f45c8ec.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-3a2e917ca0969f45c8ec.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-3a2e917ca0969f45c8ec.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-3a2e917ca0969f45c8ec.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-3a2e917ca0969f45c8ec.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-3a2e917ca0969f45c8ec.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-3a2e917ca0969f45c8ec.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-3a2e917ca0969f45c8ec.js"
+    },
+    "vendors-node_modules_axios_index_js-3a2e917ca0969f45c8ec.js": {
+      "name": "vendors-node_modules_axios_index_js-3a2e917ca0969f45c8ec.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-3a2e917ca0969f45c8ec.js"
+    },
+    "main-88f30000f2e23a2802b4.js": {
+      "name": "main-88f30000f2e23a2802b4.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-88f30000f2e23a2802b4.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-88f30000f2e23a2802b4.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-88f30000f2e23a2802b4.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-88f30000f2e23a2802b4.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-88f30000f2e23a2802b4.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-88f30000f2e23a2802b4.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-88f30000f2e23a2802b4.js"
+    },
+    "vendors-node_modules_axios_index_js-88f30000f2e23a2802b4.js": {
+      "name": "vendors-node_modules_axios_index_js-88f30000f2e23a2802b4.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-88f30000f2e23a2802b4.js"
+    },
+    "main-32b1c5eb19899276bb71.js": {
+      "name": "main-32b1c5eb19899276bb71.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-32b1c5eb19899276bb71.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-32b1c5eb19899276bb71.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-32b1c5eb19899276bb71.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-32b1c5eb19899276bb71.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-32b1c5eb19899276bb71.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-32b1c5eb19899276bb71.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-32b1c5eb19899276bb71.js"
+    },
+    "vendors-node_modules_axios_index_js-32b1c5eb19899276bb71.js": {
+      "name": "vendors-node_modules_axios_index_js-32b1c5eb19899276bb71.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-32b1c5eb19899276bb71.js"
+    },
+    "main-c1bb2d108cbce02f7957.js": {
+      "name": "main-c1bb2d108cbce02f7957.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-c1bb2d108cbce02f7957.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-c1bb2d108cbce02f7957.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-c1bb2d108cbce02f7957.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-c1bb2d108cbce02f7957.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-c1bb2d108cbce02f7957.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-c1bb2d108cbce02f7957.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-c1bb2d108cbce02f7957.js"
+    },
+    "vendors-node_modules_axios_index_js-c1bb2d108cbce02f7957.js": {
+      "name": "vendors-node_modules_axios_index_js-c1bb2d108cbce02f7957.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-c1bb2d108cbce02f7957.js"
+    },
+    "main-6b887c005cda223f6c98.js": {
+      "name": "main-6b887c005cda223f6c98.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-6b887c005cda223f6c98.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-6b887c005cda223f6c98.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-6b887c005cda223f6c98.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-6b887c005cda223f6c98.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-6b887c005cda223f6c98.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-6b887c005cda223f6c98.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-6b887c005cda223f6c98.js"
+    },
+    "vendors-node_modules_axios_index_js-6b887c005cda223f6c98.js": {
+      "name": "vendors-node_modules_axios_index_js-6b887c005cda223f6c98.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-6b887c005cda223f6c98.js"
+    },
+    "main-1bca1d37de44b1fe6d8f.js": {
+      "name": "main-1bca1d37de44b1fe6d8f.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-1bca1d37de44b1fe6d8f.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-1bca1d37de44b1fe6d8f.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-1bca1d37de44b1fe6d8f.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-1bca1d37de44b1fe6d8f.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-1bca1d37de44b1fe6d8f.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-1bca1d37de44b1fe6d8f.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-1bca1d37de44b1fe6d8f.js"
+    },
+    "vendors-node_modules_axios_index_js-1bca1d37de44b1fe6d8f.js": {
+      "name": "vendors-node_modules_axios_index_js-1bca1d37de44b1fe6d8f.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-1bca1d37de44b1fe6d8f.js"
+    },
+    "main-58bc29b00c62f0df1f25.js": {
+      "name": "main-58bc29b00c62f0df1f25.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-58bc29b00c62f0df1f25.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-58bc29b00c62f0df1f25.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-58bc29b00c62f0df1f25.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-58bc29b00c62f0df1f25.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-58bc29b00c62f0df1f25.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-58bc29b00c62f0df1f25.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-58bc29b00c62f0df1f25.js"
+    },
+    "vendors-node_modules_axios_index_js-58bc29b00c62f0df1f25.js": {
+      "name": "vendors-node_modules_axios_index_js-58bc29b00c62f0df1f25.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-58bc29b00c62f0df1f25.js"
+    },
+    "main-8b87036f85c575f2dd59.js": {
+      "name": "main-8b87036f85c575f2dd59.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-8b87036f85c575f2dd59.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-8b87036f85c575f2dd59.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-8b87036f85c575f2dd59.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-8b87036f85c575f2dd59.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-8b87036f85c575f2dd59.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-8b87036f85c575f2dd59.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-8b87036f85c575f2dd59.js"
+    },
+    "vendors-node_modules_axios_index_js-8b87036f85c575f2dd59.js": {
+      "name": "vendors-node_modules_axios_index_js-8b87036f85c575f2dd59.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-8b87036f85c575f2dd59.js"
+    },
+    "main-272c5b9cf3201f8c9df3.js": {
+      "name": "main-272c5b9cf3201f8c9df3.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-272c5b9cf3201f8c9df3.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-272c5b9cf3201f8c9df3.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-272c5b9cf3201f8c9df3.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-272c5b9cf3201f8c9df3.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-272c5b9cf3201f8c9df3.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-272c5b9cf3201f8c9df3.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-272c5b9cf3201f8c9df3.js"
+    },
+    "vendors-node_modules_axios_index_js-272c5b9cf3201f8c9df3.js": {
+      "name": "vendors-node_modules_axios_index_js-272c5b9cf3201f8c9df3.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-272c5b9cf3201f8c9df3.js"
+    },
+    "main-90e2752b5b57bbce729a.js": {
+      "name": "main-90e2752b5b57bbce729a.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-90e2752b5b57bbce729a.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-90e2752b5b57bbce729a.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-90e2752b5b57bbce729a.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-90e2752b5b57bbce729a.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-90e2752b5b57bbce729a.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-90e2752b5b57bbce729a.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-90e2752b5b57bbce729a.js"
+    },
+    "vendors-node_modules_axios_index_js-90e2752b5b57bbce729a.js": {
+      "name": "vendors-node_modules_axios_index_js-90e2752b5b57bbce729a.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-90e2752b5b57bbce729a.js"
+    },
+    "main-01281729c72eccabcc98.js": {
+      "name": "main-01281729c72eccabcc98.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-01281729c72eccabcc98.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-01281729c72eccabcc98.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-01281729c72eccabcc98.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-01281729c72eccabcc98.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-01281729c72eccabcc98.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-01281729c72eccabcc98.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-01281729c72eccabcc98.js"
+    },
+    "vendors-node_modules_axios_index_js-01281729c72eccabcc98.js": {
+      "name": "vendors-node_modules_axios_index_js-01281729c72eccabcc98.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-01281729c72eccabcc98.js"
+    },
+    "main-3969fb65575572022253.js": {
+      "name": "main-3969fb65575572022253.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-3969fb65575572022253.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-3969fb65575572022253.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-3969fb65575572022253.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-3969fb65575572022253.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-3969fb65575572022253.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-3969fb65575572022253.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-3969fb65575572022253.js"
+    },
+    "vendors-node_modules_axios_index_js-3969fb65575572022253.js": {
+      "name": "vendors-node_modules_axios_index_js-3969fb65575572022253.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-3969fb65575572022253.js"
+    },
+    "main-7139faa54a85c232483d.js": {
+      "name": "main-7139faa54a85c232483d.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-7139faa54a85c232483d.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-7139faa54a85c232483d.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-7139faa54a85c232483d.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-7139faa54a85c232483d.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-7139faa54a85c232483d.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-7139faa54a85c232483d.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-7139faa54a85c232483d.js"
+    },
+    "vendors-node_modules_axios_index_js-7139faa54a85c232483d.js": {
+      "name": "vendors-node_modules_axios_index_js-7139faa54a85c232483d.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-7139faa54a85c232483d.js"
+    },
+    "main-13bcc067bf63d46e9cf1.js": {
+      "name": "main-13bcc067bf63d46e9cf1.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-13bcc067bf63d46e9cf1.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-13bcc067bf63d46e9cf1.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-13bcc067bf63d46e9cf1.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-13bcc067bf63d46e9cf1.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-13bcc067bf63d46e9cf1.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-13bcc067bf63d46e9cf1.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-13bcc067bf63d46e9cf1.js"
+    },
+    "vendors-node_modules_axios_index_js-13bcc067bf63d46e9cf1.js": {
+      "name": "vendors-node_modules_axios_index_js-13bcc067bf63d46e9cf1.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-13bcc067bf63d46e9cf1.js"
+    },
+    "main-085640417ff9bdd3f2eb.js": {
+      "name": "main-085640417ff9bdd3f2eb.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-085640417ff9bdd3f2eb.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-085640417ff9bdd3f2eb.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-085640417ff9bdd3f2eb.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-085640417ff9bdd3f2eb.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-085640417ff9bdd3f2eb.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-085640417ff9bdd3f2eb.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-085640417ff9bdd3f2eb.js"
+    },
+    "vendors-node_modules_axios_index_js-085640417ff9bdd3f2eb.js": {
+      "name": "vendors-node_modules_axios_index_js-085640417ff9bdd3f2eb.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-085640417ff9bdd3f2eb.js"
+    },
+    "main-2f20c0dd1b757a502fe5.js": {
+      "name": "main-2f20c0dd1b757a502fe5.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-2f20c0dd1b757a502fe5.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-2f20c0dd1b757a502fe5.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-2f20c0dd1b757a502fe5.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-2f20c0dd1b757a502fe5.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-2f20c0dd1b757a502fe5.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-2f20c0dd1b757a502fe5.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-2f20c0dd1b757a502fe5.js"
+    },
+    "vendors-node_modules_axios_index_js-2f20c0dd1b757a502fe5.js": {
+      "name": "vendors-node_modules_axios_index_js-2f20c0dd1b757a502fe5.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-2f20c0dd1b757a502fe5.js"
+    },
+    "main-c82c1f6d55ccb11da05b.js": {
+      "name": "main-c82c1f6d55ccb11da05b.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-c82c1f6d55ccb11da05b.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-c82c1f6d55ccb11da05b.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-c82c1f6d55ccb11da05b.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-c82c1f6d55ccb11da05b.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-c82c1f6d55ccb11da05b.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-c82c1f6d55ccb11da05b.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-c82c1f6d55ccb11da05b.js"
+    },
+    "vendors-node_modules_axios_index_js-c82c1f6d55ccb11da05b.js": {
+      "name": "vendors-node_modules_axios_index_js-c82c1f6d55ccb11da05b.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-c82c1f6d55ccb11da05b.js"
+    },
+    "main-b557a27ea1c591f11704.js": {
+      "name": "main-b557a27ea1c591f11704.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-b557a27ea1c591f11704.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-b557a27ea1c591f11704.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-b557a27ea1c591f11704.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-b557a27ea1c591f11704.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-b557a27ea1c591f11704.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-b557a27ea1c591f11704.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-b557a27ea1c591f11704.js"
+    },
+    "vendors-node_modules_axios_index_js-b557a27ea1c591f11704.js": {
+      "name": "vendors-node_modules_axios_index_js-b557a27ea1c591f11704.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-b557a27ea1c591f11704.js"
+    },
+    "main-543c598a48eec50f46ac.js": {
+      "name": "main-543c598a48eec50f46ac.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-543c598a48eec50f46ac.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-543c598a48eec50f46ac.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-543c598a48eec50f46ac.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-543c598a48eec50f46ac.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-543c598a48eec50f46ac.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-543c598a48eec50f46ac.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-543c598a48eec50f46ac.js"
+    },
+    "vendors-node_modules_axios_index_js-543c598a48eec50f46ac.js": {
+      "name": "vendors-node_modules_axios_index_js-543c598a48eec50f46ac.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-543c598a48eec50f46ac.js"
+    },
+    "main-978ff595701408db0306.js": {
+      "name": "main-978ff595701408db0306.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-978ff595701408db0306.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-978ff595701408db0306.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-978ff595701408db0306.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-978ff595701408db0306.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-978ff595701408db0306.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-978ff595701408db0306.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-978ff595701408db0306.js"
+    },
+    "vendors-node_modules_axios_index_js-978ff595701408db0306.js": {
+      "name": "vendors-node_modules_axios_index_js-978ff595701408db0306.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-978ff595701408db0306.js"
+    },
+    "main-0f2fbd70e876843bc163.js": {
+      "name": "main-0f2fbd70e876843bc163.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-0f2fbd70e876843bc163.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-0f2fbd70e876843bc163.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-0f2fbd70e876843bc163.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-0f2fbd70e876843bc163.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-0f2fbd70e876843bc163.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-0f2fbd70e876843bc163.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-0f2fbd70e876843bc163.js"
+    },
+    "vendors-node_modules_axios_index_js-0f2fbd70e876843bc163.js": {
+      "name": "vendors-node_modules_axios_index_js-0f2fbd70e876843bc163.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-0f2fbd70e876843bc163.js"
+    },
+    "main-0a4d59d6cce9a3dbd5b0.js": {
+      "name": "main-0a4d59d6cce9a3dbd5b0.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\main-0a4d59d6cce9a3dbd5b0.js"
+    },
+    "frontend_static_js_components_ToDos_RenderToDos_js-0a4d59d6cce9a3dbd5b0.js": {
+      "name": "frontend_static_js_components_ToDos_RenderToDos_js-0a4d59d6cce9a3dbd5b0.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_ToDos_RenderToDos_js-0a4d59d6cce9a3dbd5b0.js"
+    },
+    "frontend_static_js_components_Register_RenderRegister_js-0a4d59d6cce9a3dbd5b0.js": {
+      "name": "frontend_static_js_components_Register_RenderRegister_js-0a4d59d6cce9a3dbd5b0.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\frontend_static_js_components_Register_RenderRegister_js-0a4d59d6cce9a3dbd5b0.js"
+    },
+    "vendors-node_modules_axios_index_js-0a4d59d6cce9a3dbd5b0.js": {
+      "name": "vendors-node_modules_axios_index_js-0a4d59d6cce9a3dbd5b0.js",
+      "path": "C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\bundles\\vendors-node_modules_axios_index_js-0a4d59d6cce9a3dbd5b0.js"
     }
   },
   "chunks": {
     "main": [
-      "main-fc3945899544a3079441.js"
+      "main-0a4d59d6cce9a3dbd5b0.js"
     ]
   },
   "error": "ModuleBuildError",
-  "message": "Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\js\\components\\Register\\RenderRegister.js: Unexpected token (13:9)\n\n  11 |\n  12 |     return (    \n> 13 |         {!isSubmitted ? <SingUpForms submitForm={submitForm()} /> : <FormSucces/>}\n     |          ^\n  14 |     )\n  15 | }\n    at instantiate (C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\node_modules\\@babel\\parser\\lib\\index.js:72:32)\n    at constructor (C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\node_modules\\@babel\\parser\\lib\\index.js:367:12)\n    at JSXParserMixin.raise (C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\node_modules\\@babel\\parser\\lib\\index.js:3678:19)\n    at JSXParserMixin.unexpected (C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\node_modules\\@babel\\parser\\lib\\index.js:3716:16)\n    at JSXParserMixin.parsePropertyName (C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\node_modules\\@babel\\parser\\lib\\index.js:13996:24)\n    at JSXParserMixin.parsePropertyDefinition (C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\node_modules\\@babel\\parser\\lib\\index.js:13828:22)\n    at JSXParserMixin.parseObjectLike (C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\node_modules\\@babel\\parser\\lib\\index.js:13748:21)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\node_modules\\@babel\\parser\\lib\\index.js:13140:23)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\node_modules\\@babel\\parser\\lib\\index.js:8175:20)\n    at JSXParserMixin.parseExprSubscripts (C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\node_modules\\@babel\\parser\\lib\\index.js:12790:23)"
+  "message": "Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\frontend\\static\\js\\components\\Register\\useForm.js: 'import' and 'export' may only appear at the top level. (30:0)\n\n  28 | }\n  29 |\n> 30 | export default useForm\n     | ^\n    at instantiate (C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\node_modules\\@babel\\parser\\lib\\index.js:72:32)\n    at constructor (C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\node_modules\\@babel\\parser\\lib\\index.js:367:12)\n    at JSXParserMixin.raise (C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\node_modules\\@babel\\parser\\lib\\index.js:3678:19)\n    at JSXParserMixin.parseStatementContent (C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\node_modules\\@babel\\parser\\lib\\index.js:14883:18)\n    at JSXParserMixin.parseStatement (C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\node_modules\\@babel\\parser\\lib\\index.js:14782:17)\n    at JSXParserMixin.parseBlockOrModuleBlockBody (C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\node_modules\\@babel\\parser\\lib\\index.js:15441:25)\n    at JSXParserMixin.parseBlockBody (C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\node_modules\\@babel\\parser\\lib\\index.js:15432:10)\n    at JSXParserMixin.parseBlock (C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\node_modules\\@babel\\parser\\lib\\index.js:15416:10)\n    at JSXParserMixin.parseFunctionBody (C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\node_modules\\@babel\\parser\\lib\\index.js:14090:24)\n    at JSXParserMixin.parseArrowExpression (C:\\Users\\Lenovo\\Desktop\\Learning_DRF\\node_modules\\@babel\\parser\\lib\\index.js:14061:10)"
 }

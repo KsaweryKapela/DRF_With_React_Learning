@@ -1,8 +1,8 @@
 from rest_framework.parsers import JSONParser
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from DRF_Base.models import TechStack, Task
 from .serializers import TechStackSerializer, TaskSerializer
+from DRF_Base.models import MyAccountManager, TechStack, Task, User
 
 
 @api_view(['POST', 'DELETE', 'PATCH'])
@@ -62,9 +62,20 @@ def return_users_PL(request):
     return Response([serializer.data])
 
 
-@api_view(['GET'])
+@api_view(['POST'])
 def register_user(request):
-    if request.method == 'GET':
-        QueryDict = request.GET
-        print(QueryDict)
-        return Response({'succes': 'True'})
+    if request.method == 'POST':
+        users_credentials = JSONParser().parse(request)
+        if len(User.objects.filter(username=users_credentials['username'])) != 0:
+            return Response({'response': 'The username is already taken'})
+
+        elif len(User.objects.filter(email=users_credentials['email'])) != 0:
+            return Response({'response': 'The email was already used!'})
+
+        else:
+            manager = MyAccountManager()
+            manager.create_user(email=users_credentials['username'],
+                                username=users_credentials['username'],
+                                password=users_credentials['password'])
+
+        return Response({'response': 'Wait for the email now.'})

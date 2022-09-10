@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react'
 import validateData from './validateData'
+import axios from "axios";
 
 const useForm = () => {
     const [values, setValues] = useState({
@@ -9,9 +10,7 @@ const useForm = () => {
         password2: ''
     })
 
-
     const [errors, setErrors] = useState({})
-    const [isSubmitting, setIsSubmitting] = useState(false)
 
     const handleChange = e => {
         const {name, value} = e.target
@@ -20,11 +19,25 @@ const useForm = () => {
             [name]: value,
         })
     }
+
     const handleSubmit = e => {
-        e.preventDefault();
+        e.preventDefault()
         setErrors(validateData(values))
-        setIsSubmitting(true)
+        if (Object.keys(validateData(values)).length === 0) {
+        checkDatabase()
+        }
+        // document.getElementById('register-form').submit()}
+  }
+
+    function checkDatabase() {
+        axios.post('/register-user', {
+          username: values.username,
+          email: values.email,
+          password: values.password})
+        .then((response) => {
+          console.log(response.data.response)})
     }
+
     return { handleChange, values, handleSubmit, errors }
 }
 

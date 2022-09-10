@@ -5,11 +5,10 @@ import validateData from './validateData'
 export default function SingUpForms() {
 
     const {handleChange, values, handleSubmit, errors} = useForm(validateData)
-    console.log(errors)
 
     return (
         <div className='sign-up-forms' >
-            <form action='/register-user' method="get" onSubmit={handleSubmit}>
+            <form id='register-form' action='/register-user' method="get" onSubmit={handleSubmit}>
                  <div className='form-inputs'>
                      <label htmlFor='username' className='form-label'>
                          <p>Username</p>
@@ -62,7 +61,8 @@ export default function SingUpForms() {
                  </div>
                 <br/>
                 <button className='sign-up-button'
-                        type='submit'>
+                        type='submit'
+                        id='submit-button'>
                     Sign up
                 </button>
                 <p> Already have an account? Login <a href='#'>here</a></p>
