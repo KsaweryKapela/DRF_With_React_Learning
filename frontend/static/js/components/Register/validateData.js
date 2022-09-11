@@ -1,6 +1,10 @@
-export default function validateData(values) {
-    let errors = {}
+import axios from "axios";
+import useForm from './useForm'
+import {useState} from "react";
 
+export default function validateData(values) {
+
+    let errors = {}
     if(!values.username.trim()) {
         errors.username = "Username required"
     }
@@ -22,5 +26,10 @@ export default function validateData(values) {
     } else if (values.password2 !== values.password) {
         errors.password2 = "Passwords don't match"
     }
+
+    if (Object.keys(errors).length === 0) {
+        errors.checkBackend = true
+    }
+
     return errors;
 }

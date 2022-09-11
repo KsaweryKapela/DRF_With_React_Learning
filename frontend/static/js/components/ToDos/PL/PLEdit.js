@@ -22,8 +22,11 @@ export default function PLEdit(tech) {
                     old_name: tech.tech_name},
              headers: { "Content-Type": "json" }})
 
-      setValues({values, PL: ''})
-      window. location. reload();
+        if (values.PL.trim() === ''){
+            return window.location.reload()
+        }
+        setIsClicked(!isClicked)
+
     }}
 
     return (

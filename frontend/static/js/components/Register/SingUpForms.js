@@ -1,10 +1,28 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import useForm from './useForm'
 import validateData from './validateData'
+import axios from "axios";
 
 export default function SingUpForms() {
 
-    const {handleChange, values, handleSubmit, errors} = useForm(validateData)
+    const {handleChange, values, handleSubmit, errors, setErrors} = useForm(validateData)
+
+    if (errors.checkBackend) {
+        axios.post('/register-user', {
+            username: values.username,
+            email: values.email,
+            password: values.password
+        })
+            .then(res => {
+                if (res.data.validated) {
+                    window.location.href = '/';
+                }
+                setErrors({
+                    'username': res.data.username,
+                    'email': res.data.email
+                })
+            })
+    }
 
     return (
         <div className='sign-up-forms' >
@@ -57,6 +75,7 @@ export default function SingUpForms() {
                                 placeholder='Confirm your password'
                                 autoComplete='new-password'/>
                      </label>
+
                      { errors.password2 &&  <span>{' ' + errors.password2}</span>}
                  </div>
                 <br/>
