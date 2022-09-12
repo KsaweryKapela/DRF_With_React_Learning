@@ -3,12 +3,19 @@ from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
 
 
 class MyAccountManager(BaseUserManager):
-    def create_user(self, email, username, password=None):
+
+    def create_user(self, email, username, password=None, validated=False):
+
+        if not validated:
+            from DRF_Base.validators import UserRegistrationValidation
+
+            validation = UserRegistrationValidation(email, username, password)
+            if not validation.validate_models():
+                return False
 
         user = User(
             email=self.normalize_email(email),
-            username=username
-        )
+            username=username)
 
         user.set_password(password)
         user.save(using=self._db)

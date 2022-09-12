@@ -8,14 +8,13 @@ export default function SingUpForms() {
 
     if(isRegistered){
         return (<div>
-                <ScreenAfterRegister/>
+                <ScreenAfterRegister {...values}/>
             </div>
         )
     }
 
     return (
         <div className='sign-up-forms' >
-             {isRegistered && <h1>Yolo</h1>}
 
             <form id='register-form' action='/register-user' method="get" onSubmit={handleSubmit}>
                  <div className='form-inputs'>
