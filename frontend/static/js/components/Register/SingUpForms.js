@@ -1,31 +1,22 @@
-import React, {useEffect, useState} from 'react'
+import React from 'react'
 import useForm from './useForm'
-import validateData from './validateData'
-import axios from "axios";
+import ScreenAfterRegister from './ScreenAfterRegister'
 
 export default function SingUpForms() {
 
-    const {handleChange, values, handleSubmit, errors, setErrors} = useForm(validateData)
+    const {handleChange, values, errors, isRegistered, handleSubmit} = useForm()
 
-    if (errors.checkBackend) {
-        axios.post('/register-user', {
-            username: values.username,
-            email: values.email,
-            password: values.password
-        })
-            .then(res => {
-                if (res.data.validated) {
-                    window.location.href = '/';
-                }
-                setErrors({
-                    'username': res.data.username,
-                    'email': res.data.email
-                })
-            })
+    if(isRegistered){
+        return (<div>
+                <ScreenAfterRegister/>
+            </div>
+        )
     }
 
     return (
         <div className='sign-up-forms' >
+             {isRegistered && <h1>Yolo</h1>}
+
             <form id='register-form' action='/register-user' method="get" onSubmit={handleSubmit}>
                  <div className='form-inputs'>
                      <label htmlFor='username' className='form-label'>
@@ -86,7 +77,6 @@ export default function SingUpForms() {
                 </button>
                 <p> Already have an account? Login <a href='#'>here</a></p>
             </form>
-
        </div>
     )
 }

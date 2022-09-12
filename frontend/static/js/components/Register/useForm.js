@@ -1,5 +1,5 @@
-import {useState, useEffect} from 'react'
-import validateData from './validateData'
+import {useState} from 'react'
+import axios from "axios";
 
 const useForm = () => {
     const [values, setValues] = useState({
@@ -8,6 +8,8 @@ const useForm = () => {
         password: '',
         password2: ''
     })
+
+    const [isRegistered, setRegistered] = useState(false)
 
     const [errors, setErrors] = useState({})
     const handleChange = e => {
@@ -18,15 +20,29 @@ const useForm = () => {
         })
     }
 
+
     const handleSubmit = e => {
         e.preventDefault()
-        setErrors(validateData(values))
+        axios.post('/register-user', {
+            username: values.username,
+            email: values.email,
+            password: values.password,
+            password2: values.password2
+        })
+            .then(res => {
+                if (res.data.validated) {
+                    setRegistered(true)
+                } else {
+                setErrors({
+                    'username': res.data.username,
+                    'email': res.data.email,
+                    'password': res.data.password,
+                    'password2': res.data.password2
+                })}
+            })
+    }
 
-        // document.getElementById('register-form').submit()}
-  }
-
-
-    return { handleChange, values, handleSubmit, errors, setErrors }
+    return { handleChange, values, handleSubmit, errors, isRegistered }
 }
 
 export default useForm

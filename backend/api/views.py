@@ -1,3 +1,4 @@
+import re
 from django.http import HttpResponseRedirect
 from rest_framework.parsers import JSONParser
 from rest_framework.response import Response
@@ -68,11 +69,41 @@ def register_user(request):
     if request.method == 'POST':
         response_dict = {}
         users_credentials = JSONParser().parse(request)
-        if len(User.objects.filter(username=users_credentials['username'])) != 0:
+
+        username_pattern = re.compile(r"^(?=.{4,15}$)(?![_.])(?!.*[_.]{2})[a-zA-Z0-9._]+(?<![_.])$")
+        password_pattern = re.compile(r"^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$")
+        email_pattern = re.compile(r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$")
+
+        if users_credentials['username'] == '':
+            response_dict['username'] = 'Username is required'
+
+        elif len(User.objects.filter(username=users_credentials['username'])) != 0:
             response_dict['username'] = 'This username is already used.'
 
-        if len(User.objects.filter(email=users_credentials['email'])) != 0:
+        elif not re.fullmatch(username_pattern, users_credentials['username']):
+            response_dict['username'] = 'Invalid username'
+
+        if users_credentials['email'] == '':
+            response_dict['email'] = 'Email is required'
+
+        elif len(User.objects.filter(email=users_credentials['email'])) != 0:
             response_dict['email'] = 'This email is already used.'
+
+        elif not re.fullmatch(email_pattern, users_credentials['email']):
+            response_dict['email'] = 'Invalid email'
+
+        if users_credentials['password'] == '':
+            response_dict['password'] = 'Password is required'
+
+        elif not re.fullmatch(password_pattern, users_credentials['password']):
+            response_dict['password'] = 'Invalid password. Must contain capital letter, a number and at least 8 ' \
+                                        'characters '
+
+        if users_credentials['password2'] == '':
+            response_dict['password2'] = 'Confirmation password is required'
+
+        elif users_credentials['password'] != users_credentials['password2']:
+            response_dict['password2'] = 'Passwords do not match'
 
         if response_dict == {}:
             manager = MyAccountManager()
@@ -80,4 +111,5 @@ def register_user(request):
                                 username=users_credentials['username'],
                                 password=users_credentials['password'])
             response_dict['validated'] = True
+
         return Response(response_dict)
