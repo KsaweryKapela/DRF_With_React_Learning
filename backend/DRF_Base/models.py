@@ -4,7 +4,7 @@ from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
 
 class MyAccountManager(BaseUserManager):
 
-    def create_user(self, email, username, password=None, validated=False):
+    def create_user(self, email, username, code=None, password=None, validated=False):
 
         if not validated:
             from DRF_Base.validators import UserRegistrationValidation
@@ -15,7 +15,8 @@ class MyAccountManager(BaseUserManager):
 
         user = User(
             email=self.normalize_email(email),
-            username=username)
+            username=username,
+            email_validation_code=code)
 
         user.set_password(password)
         user.save(using=self._db)
@@ -43,6 +44,8 @@ class User(AbstractBaseUser):
     is_active = models.BooleanField(default=False)
     is_staff = models.BooleanField(default=False)
     is_superuser = models.BooleanField(default=False)
+    is_validated = models.BooleanField(default=False)
+    email_validation_code = models.CharField(max_length=200)
 
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['username']

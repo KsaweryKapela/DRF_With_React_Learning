@@ -66,7 +66,9 @@ def return_users_PL(request):
 
 @api_view(['POST'])
 def register_user(request):
+
     if request.method == 'POST':
+
         users_credentials = JSONParser().parse(request)
 
         validation = UserRegistrationValidation(users_credentials['username'],

@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name="index"),
     path("register/", views.register_page, name="register"),
+    path('confirm-email/<str:code>/', views.confirm_email, name='confirm-email'),
     path('', include('api.urls'))
 ]

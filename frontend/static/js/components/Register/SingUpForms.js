@@ -15,7 +15,6 @@ export default function SingUpForms() {
 
     return (
         <div className='sign-up-forms' >
-
             <form id='register-form' action='/register-user' method="get" onSubmit={handleSubmit}>
                  <div className='form-inputs'>
                      <label htmlFor='username' className='form-label'>
