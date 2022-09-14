@@ -1,8 +1,10 @@
 import React, {useState} from "react";
 import axios from "axios";
 import formOnClick from "../formOnClick";
+import getCookie from "../../csrfToken/getCookie";
 
 export default function TaskName(data) {
+    const csrftoken = getCookie('csrftoken');
     const [isClicked, setIsClicked] = useState(false);
     const [values, setValues] = useState({
       name: data.name,
@@ -27,7 +29,11 @@ export default function TaskName(data) {
                       description: data.description,
                       new_name: values.name
                       },
-               headers: { "Content-Type": "json" }})
+             headers: {
+                       'Accept': 'application/json',
+                       'Content-Type': 'application/json',
+                       'X-CSRFToken': csrftoken
+                       }})
 
             values.old_name = event.target.value
 

@@ -63,7 +63,7 @@ class User(AbstractBaseUser):
 
 
 class TechStack(models.Model):
-    # user = models.ForeignKey(User, related_name='tech', on_delete=models.CASCADE, default=1)
+    user = models.ForeignKey(User, related_name='tech', on_delete=models.CASCADE, default=None)
     name = models.CharField(max_length=200)
     img_src = models.CharField(max_length=500, default='')
 

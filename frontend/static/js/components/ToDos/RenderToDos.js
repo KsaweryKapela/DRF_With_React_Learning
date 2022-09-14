@@ -19,6 +19,7 @@ export default function RenderToDos() {
 
     return (
         <>
+
         <div className='to-do-table'>
             <PLAdd/>
                 {
@@ -33,5 +34,7 @@ export default function RenderToDos() {
                     < TaskAdd PL_ID = {PL.id}/> </div>
                     )
                 }
-        </div></>
+        </div>
+                   <a href="/logout"> <button>Log out</button> </a>
+        </>
     )}

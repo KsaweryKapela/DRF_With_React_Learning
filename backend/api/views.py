@@ -1,6 +1,3 @@
-import re
-import time
-
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponseRedirect
 from rest_framework.parsers import JSONParser
@@ -14,20 +11,21 @@ from DRF_Base.validators import UserRegistrationValidation, LoginUser
 @api_view(['POST', 'DELETE', 'PATCH'])
 def edit_todos(request):
     if request.method == 'POST':
-        data = JSONParser().parse(request)
+        data = request.data
+
         serializer = TaskSerializer(data=data)
         if serializer.is_valid():
             serializer.save()
         return Response({"message": "The data was saved to the database"})
 
     if request.method == 'DELETE':
-        data = JSONParser().parse(request)
+        data = request.data
+
         task = Task.objects.get(name=data['name'])
         task.delete()
 
     if request.method == 'PATCH':
-        data = JSONParser().parse(request)
-
+        data = request.data
         task = Task.objects.get(name=data['name'])
         task.description = data['description']
         if data['new_name'] == '':
@@ -42,15 +40,15 @@ def edit_todos(request):
 @api_view(['POST', 'DELETE', 'PATCH'])
 def edit_PL(request):
     if request.method == 'POST':
-        data = JSONParser().parse(request)
-        serializer = TechStackSerializer(data=data)
-        if serializer.is_valid():
-            serializer.save()
+        data = request.data
+        print(request.data)
+        print(request.user.id)
+        TechStack.objects.create(name=data['name'], user_id=request.user.id)
 
     if request.method == 'PATCH':
-        data = JSONParser().parse(request)
+        data = request.data
         if data['name'].strip() in ['']:
-            item = TechStack.objects.get(name=data['old_name'])
+            item = TechStack.objects.filter(name=data['old_name']).first()
             item.delete()
         else:
             item = TechStack.objects.get(name=data['old_name'])
@@ -62,7 +60,7 @@ def edit_PL(request):
 
 @api_view(['POST', 'GET'])
 def return_users_PL(request):
-    pl = TechStack.objects.all()
+    pl = TechStack.objects.filter(user=request.user.id).all()
     serializer = TechStackSerializer(pl, many=True)
     return Response([serializer.data])
 
@@ -86,3 +84,16 @@ def register_user(request):
             login_class.login_user()
 
         return Response(response_dict)
+
+
+@api_view(['POST'])
+def login_user(request):
+    if request.method == 'POST':
+        users_credentials = JSONParser().parse(request)
+        print(users_credentials)
+        login_class = LoginUser(users_credentials['email'], users_credentials['password'], request)
+        if login_class.login_user():
+            return Response({'logged': True})
+        login_dict = login_class.check_errors()
+        return Response(login_dict)
+

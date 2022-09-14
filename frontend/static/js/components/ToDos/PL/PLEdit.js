@@ -1,9 +1,11 @@
 import React, {useState} from 'react'
 import axios from "axios";
 import formOnClick from "../formOnClick";
-
+import getCookie from "../../csrfToken/getCookie";
 
 export default function PLEdit(tech) {
+
+    const csrftoken = getCookie('csrftoken');
 
     const [isClicked, setIsClicked] = useState(false);
 
@@ -20,7 +22,12 @@ export default function PLEdit(tech) {
              url: "http://127.0.0.1:8000/edit-PL/",
              data: {name: values.PL,
                     old_name: tech.tech_name},
-             headers: { "Content-Type": "json" }})
+             headers: {
+                       'Accept': 'application/json',
+                       'Content-Type': 'application/json',
+                       'X-CSRFToken': csrftoken
+                       }})
+
 
         if (values.PL.trim() === ''){
             return window.location.reload()

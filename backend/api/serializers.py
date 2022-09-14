@@ -11,6 +11,7 @@ class TaskSerializer(serializers.ModelSerializer):
 
 class TechStackSerializer(serializers.ModelSerializer):
     tasks = TaskSerializer(many=True, read_only=True)
+
     class Meta:
         model = TechStack
         fields = ['id', 'name', 'img_src', 'tasks']

@@ -75,7 +75,7 @@ export default function SingUpForms() {
                         id='submit-button'>
                     Sign up
                 </button>
-                <p> Already have an account? Login <a href='#'>here</a></p>
+                <p> Already have an account? Login <a href='/login'>here</a></p>
             </form>
        </div>
     )

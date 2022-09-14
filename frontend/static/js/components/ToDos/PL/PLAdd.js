@@ -1,12 +1,15 @@
 import React, {useState} from 'react'
 import axios from "axios";
 import formOnClick from '../formOnClick'
+import getCookie from '../../csrfToken/getCookie'
 
 
 export default function PLAdd() {
     const [values, setValues] = useState({
         PL: 'New tech'
     });
+
+    const csrftoken = getCookie('csrftoken');
 
     const handleInputChange = (event) => setValues({values, PL: event.target.value})
 
@@ -16,12 +19,15 @@ export default function PLAdd() {
       axios({
              method: "post",
              url: "http://127.0.0.1:8000/edit-PL/",
-             data: {name: values.PL,
-                    tasks: []},
-             headers: { "Content-Type": "json" }})
+             data: {name: values.PL},
+             headers: {
+                       'Accept': 'application/json',
+                       'Content-Type': 'application/json',
+                       'X-CSRFToken': csrftoken
+                       }})
 
       setValues({values, PL: ''})
-      window. location. reload();
+      window.location.reload();
     }}
 
     return (

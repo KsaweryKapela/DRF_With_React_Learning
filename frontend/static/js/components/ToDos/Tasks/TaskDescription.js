@@ -1,10 +1,13 @@
 import React, {useState} from "react";
 import axios from "axios";
 import formOnClick from "../formOnClick";
+import getCookie from "../../csrfToken/getCookie";
 
 export default function TaskDescription(data) {
 
     const [isClicked, setIsClicked] = useState(false);
+
+    const csrftoken = getCookie('csrftoken');
 
     const [values, setValues] = useState({
       description: data.description
@@ -13,7 +16,7 @@ export default function TaskDescription(data) {
 
     const handleKeypress = (event) => {
     if (event.keyCode === 13) {
-
+        
         axios({
                method: "patch",
                url: "http://127.0.0.1:8000/edit-todos/",
@@ -21,7 +24,11 @@ export default function TaskDescription(data) {
                       description: values.description,
                       new_name: data.name
                       },
-               headers: { "Content-Type": "json" }})
+             headers: {
+                       'Accept': 'application/json',
+                       'Content-Type': 'application/json',
+                       'X-CSRFToken': csrftoken
+                       }})
 
         setIsClicked(!isClicked)
     }}

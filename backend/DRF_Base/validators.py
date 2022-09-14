@@ -23,8 +23,21 @@ class LoginUser:
         user = authenticate(self.request, username=self.email, password=self.password)
         if user is not None:
             login(self.request, user)
+            return True
         else:
-            return 'Invalid login'
+            return False
+
+    def check_errors(self):
+        login_dict = {}
+        if self.password == '':
+            login_dict['password'] = 'Please insert password'
+        elif User.objects.filter(email=self.email).exists():
+            login_dict['password'] = 'Invalid password'
+        if self.email == '':
+            login_dict['email'] = 'Please insert email'
+        elif not User.objects.filter(email=self.email).exists():
+            login_dict['email'] = 'Invalid email'
+        return login_dict
 
 
 class SendEmail:
