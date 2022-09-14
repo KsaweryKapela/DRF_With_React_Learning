@@ -78,6 +78,10 @@ TEMPLATES = [
 AUTH_USER_MODEL = 'DRF_Base.User'
 WSGI_APPLICATION = 'Learning_DRF.wsgi.application'
 
+AUTHENTICATION_BACKENDS = (
+        'django.contrib.auth.backends.ModelBackend',
+    )
+
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 

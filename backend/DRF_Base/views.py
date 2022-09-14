@@ -1,3 +1,4 @@
+from django.contrib.auth import get_user_model, authenticate, login, logout
 from django.core.exceptions import BadRequest
 from django.http import HttpResponse
 from django.shortcuts import render
@@ -9,12 +10,12 @@ def index(request):
 
 
 def register_page(request):
+    logout(request)
+
     return render(request, 'register.html', {})
 
 
 def confirm_email(request, code):
-    print(code)
-    print(User.objects.get(username='Ksaff').email_validation_code)
     if User.objects.filter(email_validation_code=code).exists():
         user = User.objects.get(email_validation_code=code)
         user.is_validated = True

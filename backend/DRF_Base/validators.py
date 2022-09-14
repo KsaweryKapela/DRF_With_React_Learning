@@ -1,5 +1,6 @@
 import re
 from DRF_Base.models import User, MyAccountManager
+from django.contrib.auth import authenticate, login
 from django.core.mail import EmailMessage
 from django.conf import settings
 import random
@@ -10,6 +11,20 @@ def generate_code():
     characters = string.ascii_letters + string.digits
     code = ''.join(random.choice(characters) for i in range(80))
     return code
+
+
+class LoginUser:
+    def __init__(self, email, password, request):
+        self.email = email
+        self.password = password
+        self.request = request
+
+    def login_user(self):
+        user = authenticate(self.request, username=self.email, password=self.password)
+        if user is not None:
+            login(self.request, user)
+        else:
+            return 'Invalid login'
 
 
 class SendEmail:

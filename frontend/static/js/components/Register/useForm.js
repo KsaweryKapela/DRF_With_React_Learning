@@ -23,6 +23,7 @@ const useForm = () => {
 
     const handleSubmit = e => {
         e.preventDefault()
+        setLoading(true)
         axios.post('/register-user', {
             username: values.username,
             email: values.email,
@@ -39,10 +40,13 @@ const useForm = () => {
                     'password': res.data.password,
                     'password2': res.data.password2
                 })}
+                setLoading(false)
             })
     }
 
-    return { handleChange, values, handleSubmit, errors, isRegistered }
+    const [loading, setLoading] = useState(false)
+
+    return { handleChange, values, handleSubmit, errors, isRegistered, loading }
 }
 
 export default useForm

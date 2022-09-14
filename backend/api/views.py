@@ -1,11 +1,14 @@
 import re
+import time
+
+from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponseRedirect
 from rest_framework.parsers import JSONParser
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from .serializers import TechStackSerializer, TaskSerializer
 from DRF_Base.models import MyAccountManager, TechStack, Task, User
-from DRF_Base.validators import UserRegistrationValidation
+from DRF_Base.validators import UserRegistrationValidation, LoginUser
 
 
 @api_view(['POST', 'DELETE', 'PATCH'])
@@ -68,13 +71,18 @@ def return_users_PL(request):
 def register_user(request):
 
     if request.method == 'POST':
-
         users_credentials = JSONParser().parse(request)
 
         validation = UserRegistrationValidation(users_credentials['username'],
                                                 users_credentials['email'],
                                                 users_credentials['password'],
                                                 users_credentials['password2'])
+
         response_dict = validation.validate_and_register()
+
+        if 'validated' in response_dict:
+
+            login_class = LoginUser(users_credentials['email'], users_credentials['password'], request)
+            login_class.login_user()
 
         return Response(response_dict)

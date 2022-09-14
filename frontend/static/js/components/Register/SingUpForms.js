@@ -4,13 +4,15 @@ import ScreenAfterRegister from './ScreenAfterRegister'
 
 export default function SingUpForms() {
 
-    const {handleChange, values, errors, isRegistered, handleSubmit} = useForm()
+    const {handleChange, values, errors, isRegistered, handleSubmit, loading} = useForm()
 
     if(isRegistered){
         return (<div>
                 <ScreenAfterRegister {...values}/>
             </div>
         )
+    }else if(loading){
+        return(<div>loading</div>)
     }
 
     return (
