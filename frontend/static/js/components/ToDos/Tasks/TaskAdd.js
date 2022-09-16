@@ -1,11 +1,15 @@
 import React, {useState} from 'react'
 import axios from "axios";
 import getCookie from '../../csrfToken/getCookie'
+import toDosForm from "../toDosForm";
 
 
-export default function TaskAdd(PL_ID) {
+export default function TaskAdd(tech) {
+
+    const {setTechInput, TechInput, formOnClick} = toDosForm()
+
     const [values, setValues] = useState({
-        PL: 'Add new task'
+        PL: ''
     });
 
     const csrftoken = getCookie('csrftoken');
@@ -18,7 +22,7 @@ export default function TaskAdd(PL_ID) {
       axios({
              method: "post",
              url: "http://127.0.0.1:8000/edit-todos/",
-             data: {language: PL_ID.PL_ID,
+             data: {language: tech.Tech_ID,
                     name: values.PL,
                     description: 'Description of ' + values.PL,
                     done: false},
@@ -36,6 +40,7 @@ export default function TaskAdd(PL_ID) {
         <div>
             <hr/>
             <input value={values.PL}
+                   placeholder='Add new task'
                    onChange={handleInputChange}
                    onKeyDown={handleKeypress}
                    onClick={(e) => formOnClick(e)}

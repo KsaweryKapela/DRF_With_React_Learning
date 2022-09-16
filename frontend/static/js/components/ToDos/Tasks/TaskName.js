@@ -1,17 +1,17 @@
 import React, {useState} from "react";
 import axios from "axios";
 import getCookie from "../../csrfToken/getCookie";
+import toDosForm from "../toDosForm";
 
 export default function TaskName(data) {
+    const {formOnClick} = toDosForm()
     const csrftoken = getCookie('csrftoken');
     const [isClicked, setIsClicked] = useState(false);
-    const [values, setValues] = useState({
-      name: data.name,
-      old_name: data.name
-    })
 
-    const handleInputChange = (event) => setValues({values, name: event.target.value,
-    old_name: values.old_name})
+    const [taskName, setTaskName] = useState(data.name)
+    const [oldName, setOldName] = useState('');
+
+    const handleInputChange = (event) => setTaskName(event.target.value)
 
 
     const handleKeypress = (event) => {
@@ -24,9 +24,9 @@ export default function TaskName(data) {
         axios({
                method: "patch",
                url: "http://127.0.0.1:8000/edit-todos/",
-               data: {name: values.old_name,
+               data: {old_name: oldName,
                       description: data.description,
-                      new_name: values.name
+                      new_name: taskName
                       },
              headers: {
                        'Accept': 'application/json',
@@ -34,21 +34,20 @@ export default function TaskName(data) {
                        'X-CSRFToken': csrftoken
                        }})
 
-            values.old_name = event.target.value
-
-    if (values.name === '') {window.location.reload()}
+    if (taskName === '') {window.location.reload()}
     else {setIsClicked(!isClicked)}
     }}
 
     return (
         <>
             {!isClicked &&
-            <h3 onClick={() => setIsClicked(!isClicked)}>{values.name}</h3>}
+            <h3 onClick={() => setIsClicked(!isClicked)}>{taskName}</h3>}
             {isClicked && <div><p>
-             <input value={values.name}
+             <input value={taskName}
                          onChange={handleInputChange}
                          onKeyDown={handleKeypress}
-                         onFocus={(e) => formOnClick(e)}
+                         onFocus={(e) =>
+                         {formOnClick(e); setOldName(taskName)}}
                          autoFocus
                          onMouseLeave={() => setIsClicked(!isClicked)}
             /></p></div>}

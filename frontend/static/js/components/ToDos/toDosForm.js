@@ -5,16 +5,9 @@ import getCookie from "../csrfToken/getCookie";
 const toDosForm = () => {
     const [usersTech, setUsersTech] = useState([])
 
-    const UpdateTech = () => {
-        useEffect(() => {
-            async function fetchData() {
-                const res = await axios('http://127.0.0.1:8000/return-users-tech/')
-                await setUsersTech(res.data[0])
-            }
-
-            fetchData()
-        }, [])
-    }
+    async function UpdateTech() {
+        const res = await axios('http://127.0.0.1:8000/return-users-tech/')
+        await setUsersTech(res.data[0])}
 
     function formOnClick(event) {
     event.target.select()

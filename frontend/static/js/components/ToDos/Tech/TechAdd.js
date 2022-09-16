@@ -2,11 +2,12 @@ import React, {useState} from 'react'
 import axios from "axios";
 import getCookie from '../../csrfToken/getCookie'
 import toDosForm from '../toDosForm'
+import RenderToDos from "../RenderToDos";
 
 
 export default function TechAdd() {
 
-    const {UpdateTech, usersTech, formOnClick, setTechInput, TechInput, csrftoken} = toDosForm()
+    const {setTechInput, TechInput, csrftoken} = toDosForm()
 
     const handleInputChange = (event) => setTechInput({TechInput, name: event.target.value})
 
@@ -24,16 +25,16 @@ export default function TechAdd() {
                        }})
 
       setTechInput({TechInput, name: ''})
-
+      window.location.reload()
     }}
 
     return (
         <>
-            <input className='add-Tech-label' value={TechInput.name}
+            <input className='add-tech-label'
+                   value={TechInput.name}
                    placeholder='New tech'
                    onChange={handleInputChange}
                    onKeyDown={handleKeypress}
-                   onClick={(e) => formOnClick(e)}
             />
        </>
     )

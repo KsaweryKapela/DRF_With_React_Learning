@@ -12,7 +12,10 @@ export default function RenderToDos() {
 
     const {UpdateTech, usersTech} = toDosForm()
 
-    UpdateTech()
+     useEffect(() => {
+         UpdateTech()
+    }, []);
+
 
     return (
         <>
@@ -21,7 +24,6 @@ export default function RenderToDos() {
             <TechAdd/>
                 {
                     usersTech.map(Tech => <div className='tech-item' key={Tech.id}> <TechEdit tech_name={Tech.name}/>
-
                             {Tech['tasks'].map(task => <div><hr/>
 
                                 <TaskName {...task}/>

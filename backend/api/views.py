@@ -12,7 +12,6 @@ from DRF_Base.validators import UserRegistrationValidation, LoginUser
 def edit_todos(request):
     if request.method == 'POST':
         data = request.data
-
         serializer = TaskSerializer(data=data)
         if serializer.is_valid():
             serializer.save()
@@ -26,7 +25,7 @@ def edit_todos(request):
 
     if request.method == 'PATCH':
         data = request.data
-        task = Task.objects.get(name=data['name'])
+        task = Task.objects.get(name=data['old_name'])
         task.description = data['description']
         if data['new_name'] == '':
             task.delete()
@@ -47,7 +46,6 @@ def edit_tech(request):
 
     if request.method == 'PATCH':
         data = request.data
-        print(data)
         if data['name'].strip() in ['']:
             item = TechStack.objects.filter(name=data['old_name']).first()
             item.delete()
@@ -93,6 +91,12 @@ def login_user(request):
         users_credentials = JSONParser().parse(request)
         login_class = LoginUser(users_credentials['email'], users_credentials['password'], request)
         if login_class.login_user():
+            if 'code' in request.session:
+                current_user = request.user
+                if request.session['code'] == current_user.email_validation_code:
+                    current_user.is_validated = True
+                    current_user.save()
+                    del request.session['code']
             return Response({'logged': True})
         login_dict = login_class.check_errors()
         return Response(login_dict)
