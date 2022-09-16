@@ -1,16 +1,18 @@
 from django.contrib.auth import get_user_model, authenticate, login, logout
+from django.contrib.auth.decorators import login_required
 from django.core.exceptions import BadRequest
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from DRF_Base.models import User
 
 
+@login_required(login_url='/login')
 def index(request):
-    return render(request, 'index.html', {})
+    current_username = request.user.username
+    return render(request, 'index.html', {'user': current_username})
 
 
 def register_page(request):
-    logout(request)
     return render(request, 'register.html', {})
 
 
@@ -30,5 +32,4 @@ def confirm_email(request, code):
 
 def log_out(request):
     logout(request)
-    print(request.user)
-    return redirect('/register')
+    return redirect('/login')

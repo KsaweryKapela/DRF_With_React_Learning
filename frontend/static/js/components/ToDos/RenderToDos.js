@@ -3,35 +3,32 @@ import axios from "axios";
 import TaskAdd from "./Tasks/TaskAdd";
 import TaskDescription from "./Tasks/TaskDescription";
 import TaskName from "./Tasks/TaskName";
-import PLAdd from "./PL/PLAdd";
-import PLEdit from "./PL/PLEdit";
+import TechAdd from "./Tech/TechAdd";
+import TechEdit from "./Tech/TechEdit";
+import toDosForm from "./toDosForm";
 
 
 export default function RenderToDos() {
 
-    const [usersPL, setUsersPL] = useState([])
+    const {UpdateTech, usersTech} = toDosForm()
 
-    useEffect(() => {
-            async function fetchData() {
-            const res = await axios('http://127.0.0.1:8000/return-users-PL/')
-            await setUsersPL(res.data[0])}
-            fetchData()}, [])
+    UpdateTech()
 
     return (
         <>
 
         <div className='to-do-table'>
-            <PLAdd/>
+            <TechAdd/>
                 {
-                    usersPL.map(PL => <div className='tech-item' key={PL.id}> <PLEdit tech_name={PL.name}/>
+                    usersTech.map(Tech => <div className='tech-item' key={Tech.id}> <TechEdit tech_name={Tech.name}/>
 
-                            {PL['tasks'].map(task => <div><hr/>
+                            {Tech['tasks'].map(task => <div><hr/>
 
                                 <TaskName {...task}/>
                                 <TaskDescription {...task}/>
                                 </div>
                             )}
-                    < TaskAdd PL_ID = {PL.id}/> </div>
+                    < TaskAdd Tech_ID = {Tech.id}/> </div>
                     )
                 }
         </div>

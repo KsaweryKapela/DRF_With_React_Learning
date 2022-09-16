@@ -1,13 +1,30 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import loginUseForm from "./LoginUseForm";
+import axios from "axios";
 
 export default function LoginForms() {
 
         const {handleChange, values, errors, handleSubmit, loading } = loginUseForm()
 
-    if(loading){
-        return(<div>loading</div>)
+    const [alreadyLogged, setAlreadyLogged] = useState();
+
+    useEffect(() => {
+        async function fetchData() {
+    return axios('/user-state')}
+    fetchData().then(r => setAlreadyLogged(r.data['is_logged']))}, [])
+
+    if (alreadyLogged) {
+        return (<div>You are already logged in.
+            <p>
+                <a href="/logout">
+                    <button>Log out</button>
+                </a>
+            </p>
+        </div>)
+    } else if (loading) {
+        return (<div>loading</div>)
     }
+
     return (
         <div className='login-forms'>
             <form id='login-form' action='/login-user' method="post" onSubmit={handleSubmit}>
@@ -44,6 +61,7 @@ export default function LoginForms() {
                     Login
                 </button>
             </form>
+          <p> Or register <a href='/register'>here</a></p>
         </div>
     )
 }

@@ -1,38 +1,36 @@
 import React, {useState} from 'react'
 import axios from "axios";
-import formOnClick from '../formOnClick'
 import getCookie from '../../csrfToken/getCookie'
+import toDosForm from '../toDosForm'
 
 
-export default function PLAdd() {
-    const [values, setValues] = useState({
-        PL: 'New tech'
-    });
+export default function TechAdd() {
 
-    const csrftoken = getCookie('csrftoken');
+    const {UpdateTech, usersTech, formOnClick, setTechInput, TechInput, csrftoken} = toDosForm()
 
-    const handleInputChange = (event) => setValues({values, PL: event.target.value})
+    const handleInputChange = (event) => setTechInput({TechInput, name: event.target.value})
 
     const handleKeypress = (event) => {
     if (event.keyCode === 13) {
 
       axios({
              method: "post",
-             url: "http://127.0.0.1:8000/edit-PL/",
-             data: {name: values.PL},
+             url: "http://127.0.0.1:8000/edit-tech/",
+             data: {name: TechInput.name},
              headers: {
                        'Accept': 'application/json',
                        'Content-Type': 'application/json',
                        'X-CSRFToken': csrftoken
                        }})
 
-      setValues({values, PL: ''})
-      window.location.reload();
+      setTechInput({TechInput, name: ''})
+
     }}
 
     return (
         <>
-            <input className='add-PL-label' value={values.PL}
+            <input className='add-Tech-label' value={TechInput.name}
+                   placeholder='New tech'
                    onChange={handleInputChange}
                    onKeyDown={handleKeypress}
                    onClick={(e) => formOnClick(e)}

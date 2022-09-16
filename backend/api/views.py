@@ -38,15 +38,16 @@ def edit_todos(request):
 
 
 @api_view(['POST', 'DELETE', 'PATCH'])
-def edit_PL(request):
+def edit_tech(request):
     if request.method == 'POST':
         data = request.data
-        print(request.data)
-        print(request.user.id)
+        if TechStack.objects.filter(name=data['name']).filter(user_id=request.user.id).exists():
+            return Response({'error': 'this item already exists'})
         TechStack.objects.create(name=data['name'], user_id=request.user.id)
 
     if request.method == 'PATCH':
         data = request.data
+        print(data)
         if data['name'].strip() in ['']:
             item = TechStack.objects.filter(name=data['old_name']).first()
             item.delete()
@@ -59,7 +60,7 @@ def edit_PL(request):
 
 
 @api_view(['POST', 'GET'])
-def return_users_PL(request):
+def return_users_tech(request):
     pl = TechStack.objects.filter(user=request.user.id).all()
     serializer = TechStackSerializer(pl, many=True)
     return Response([serializer.data])
@@ -90,10 +91,14 @@ def register_user(request):
 def login_user(request):
     if request.method == 'POST':
         users_credentials = JSONParser().parse(request)
-        print(users_credentials)
         login_class = LoginUser(users_credentials['email'], users_credentials['password'], request)
         if login_class.login_user():
             return Response({'logged': True})
         login_dict = login_class.check_errors()
         return Response(login_dict)
 
+
+@api_view(['GET'])
+def user_state(request):
+    if request.method == 'GET':
+        return Response({'is_logged': request.user.is_authenticated})

@@ -29,14 +29,16 @@ const loginUseForm = () => {
         })
             .then(res => {
                 console.log(res)
-                if (res.data.logged === true) {
+                if (res.data['logged'] === true) {
                     window.location.href = '/';
                 } else {
                 setErrors({
                     'email': res.data.email,
                     'password': res.data.password,
-                })}
+                })
                 setLoading(false)
+                }
+
             })
     }
 

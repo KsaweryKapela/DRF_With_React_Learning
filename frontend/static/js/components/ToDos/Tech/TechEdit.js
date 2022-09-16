@@ -1,26 +1,21 @@
 import React, {useState} from 'react'
 import axios from "axios";
-import formOnClick from "../formOnClick";
 import getCookie from "../../csrfToken/getCookie";
+import toDosForm from "../toDosForm";
 
-export default function PLEdit(tech) {
-
-    const csrftoken = getCookie('csrftoken');
-
+export default function TechEdit(tech) {
+    const {UpdateTech, usersTech, formOnClick, TechInput, setTechInput, csrftoken} = toDosForm()
     const [isClicked, setIsClicked] = useState(false);
 
-    const [values, setValues] = useState({
-        PL: tech.tech_name});
-
-    const handleInputChange = (event) => setValues({values, PL: event.target.value})
+    const handleInputChange = (event) => setTechInput({TechInput, name: event.target.value})
 
     const handleKeypress = (event) => {
     if (event.keyCode === 13) {
 
       axios({
              method: "patch",
-             url: "http://127.0.0.1:8000/edit-PL/",
-             data: {name: values.PL,
+             url: "http://127.0.0.1:8000/edit-tech/",
+             data: {name: TechInput.name,
                     old_name: tech.tech_name},
              headers: {
                        'Accept': 'application/json',
@@ -29,7 +24,7 @@ export default function PLEdit(tech) {
                        }})
 
 
-        if (values.PL.trim() === ''){
+        if (TechInput.name.trim() === ''){
             return window.location.reload()
         }
         setIsClicked(!isClicked)
@@ -39,15 +34,13 @@ export default function PLEdit(tech) {
     return (
         <>
             {!isClicked &&
-            <h1 onClick={() => setIsClicked(!isClicked)}>{values.PL}</h1>}
+            <h1 onClick={() => setIsClicked(!isClicked)}>{tech.tech_name}</h1>}
 
             {isClicked &&
 
              <input className='tech-edit-input'
-                    value={values.PL}
-                    id = 'x'
-                         onChange={handleInputChange}
-                         onKeyDown={handleKeypress}
+                    onChange={handleInputChange}
+                    onKeyDown={handleKeypress}
                     onFocus={(e) => formOnClick(e)}
                     autoFocus
                     onMouseLeave={() => setIsClicked(!isClicked)}
