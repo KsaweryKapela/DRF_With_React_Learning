@@ -51,3 +51,9 @@ manage.py
 
 # example database
 drf_example
+
+package.json
+package-lock.json
+webpack.config.js
+webpack-stats.json
+/frontend/static/bundles/
